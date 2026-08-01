@@ -91,6 +91,7 @@ main {
 }
 
 .back-btn {
+  display: block;
   background: none;
   border: none;
   color: var(--accent);
@@ -98,14 +99,6 @@ main {
   font-weight: 600;
   padding: 0 0 14px;
   cursor: pointer;
-}
-
-.back-btn[hidden] {
-  display: none;
-}
-
-.back-btn:not([hidden]) {
-  display: block;
 }
 
 .kural-list {

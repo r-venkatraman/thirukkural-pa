@@ -133,8 +133,6 @@ function renderKuralCard(kural, showBack) {
       currentView = 'list';
       renderCurrentView();
     });
-  } else {
-    backBtn.hidden = true;
   }
 
   const playBtn = document.getElementById('play-kural');
