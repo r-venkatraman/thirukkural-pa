@@ -14,11 +14,7 @@ const LABELS = {
     tabBrowse: 'அனைத்தும்',
     backToList: '← பட்டியலுக்குத் திரும்பு',
     play: 'ஒலிக்க · Listen',
-    playing: 'ஒலிக்கிறது… · Playing…',
-    gitaBtn: '🕉 கீதையுடன் ஒப்பிடு · Compare with the Gita',
-    gitaHeading: 'கீதையின் ஒப்பீடு',
-    shareLabel: 'இக்குறளைப் பகிர்க',
-    shareText: (k) => `${k.kural_ta}\n\n"${k.translation_en}"\n— திருக்குறள் ${k.id}, Thirukkural`
+    playing: 'ஒலிக்கிறது… · Playing…'
   },
   en: {
     showCore: 'Show meaning',
@@ -29,11 +25,7 @@ const LABELS = {
     tabBrowse: 'Browse All',
     backToList: '← Back to list',
     play: 'Listen',
-    playing: 'Playing…',
-    gitaBtn: '🕉 Compare with the Gita',
-    gitaHeading: 'Bhagavad Gita Parallel',
-    shareLabel: 'Share this kural',
-    shareText: (k) => `${k.kural_ta}\n\n"${k.translation_en}"\n— Thirukkural ${k.id}`
+    playing: 'Playing…'
   }
 };
 
@@ -81,10 +73,6 @@ function renderKuralCard(kural, showBack) {
   fill(node, 'translation_en', kural.translation_en);
   fill(node, 'urai_core', currentLang === 'ta' ? kural.urai_core_ta : kural.urai_core_en);
   fill(node, 'urai_full', currentLang === 'ta' ? kural.urai_full_ta : kural.urai_full_en);
-  fill(node, 'gita_ref', kural.gita_ref);
-  fill(node, 'gita_verse_translit', kural.gita_verse_translit);
-  fill(node, 'gita_verse_en', kural.gita_verse_en);
-  fill(node, 'gita_note', currentLang === 'ta' ? kural.gita_parallel_note_ta : kural.gita_parallel_note_en);
 
   const translit = node.querySelector('[data-field="kural_transliteration"]');
   if (translit) {
@@ -98,18 +86,10 @@ function renderKuralCard(kural, showBack) {
 
   app.appendChild(node);
 
-  const card = app.querySelector('.kural-card');
-  if (card) {
-    card.classList.add('card-enter');
-  }
-
   document.getElementById('show-core').textContent = labels.showCore;
   document.getElementById('show-full').textContent = labels.showFull;
   document.getElementById('urai-core-heading').textContent = labels.coreHeading;
   document.getElementById('urai-full-heading').textContent = labels.fullHeading;
-  document.getElementById('show-gita').textContent = labels.gitaBtn;
-  document.getElementById('gita-heading').textContent = labels.gitaHeading;
-  document.getElementById('share-label').textContent = labels.shareLabel;
 
   const coreBlock = document.getElementById('urai-core-block');
   const fullBlock = document.getElementById('urai-full-block');
@@ -145,33 +125,6 @@ function renderKuralCard(kural, showBack) {
       playBtn.classList.remove('playing');
       playLabel.textContent = labels.play;
     });
-  });
-
-  const gitaBtn = document.getElementById('show-gita');
-  const gitaBlock = document.getElementById('gita-block');
-  gitaBtn.addEventListener('click', () => {
-    const isHidden = gitaBlock.hidden;
-    gitaBlock.hidden = !isHidden;
-    gitaBlock.classList.toggle('card-enter', isHidden);
-  });
-
-  const shareBtn = document.getElementById('share-kural');
-  shareBtn.addEventListener('click', async () => {
-    const text = labels.shareText(kural);
-    if (navigator.share) {
-      try {
-        await navigator.share({ text });
-      } catch (e) { /* user cancelled, ignore */ }
-    } else {
-      try {
-        await navigator.clipboard.writeText(text);
-        shareBtn.querySelector('#share-label').textContent =
-          currentLang === 'ta' ? 'நகலெடுக்கப்பட்டது!' : 'Copied!';
-        setTimeout(() => {
-          shareBtn.querySelector('#share-label').textContent = labels.shareLabel;
-        }, 1800);
-      } catch (e) { /* clipboard not available */ }
-    }
   });
 }
 
