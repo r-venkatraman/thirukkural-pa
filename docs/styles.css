@@ -23,7 +23,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px max(20px, env(safe-area-inset-left)) 16px max(20px, env(safe-area-inset-right));
+  padding: max(20px, env(safe-area-inset-top)) max(20px, env(safe-area-inset-right)) 16px max(20px, env(safe-area-inset-left));
   background: var(--accent);
   color: #fff;
 }
