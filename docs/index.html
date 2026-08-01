@@ -24,13 +24,19 @@
   </div>
 </header>
 
+<nav class="view-tabs" role="group" aria-label="View">
+  <button id="tab-today" class="view-tab active">Today</button>
+  <button id="tab-browse" class="view-tab">Browse All</button>
+</nav>
+
 <main id="app">
-  <p class="loading" id="loading">Loading today's kural…</p>
+  <p class="loading" id="loading">Loading…</p>
 </main>
 
 <template id="kural-template">
   <section class="kural-card">
-    <p class="adhikaram"><span data-field="paal"></span> · <span data-field="adhikaram"></span></p>
+    <button class="back-btn" id="back-to-list" hidden>&larr; Back to list</button>
+    <p class="adhikaram"><span data-field="paal"></span> &middot; <span data-field="adhikaram"></span></p>
     <p class="kural-number">குறள் <span data-field="id"></span></p>
     <pre class="kural-text" data-field="kural_ta"></pre>
     <pre class="transliteration" data-field="kural_transliteration" hidden></pre>
@@ -49,6 +55,13 @@
       <p data-field="urai_full"></p>
     </div>
   </section>
+</template>
+
+<template id="list-item-template">
+  <button class="kural-list-item">
+    <span class="list-item-number"></span>
+    <span class="list-item-text"></span>
+  </button>
 </template>
 
 <script src="app.js"></script>
