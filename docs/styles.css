@@ -172,6 +172,30 @@ main {
   margin: 0 0 14px;
 }
 
+.play-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--accent-light);
+  color: var(--accent);
+  border: none;
+  border-radius: 20px;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 14px;
+}
+
+.play-btn.playing {
+  background: var(--accent);
+  color: #fff;
+}
+
+.play-icon {
+  font-size: 11px;
+}
+
 .transliteration {
   font-family: 'Noto Serif', serif;
   font-style: italic;

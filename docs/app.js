@@ -12,7 +12,9 @@ const LABELS = {
     fullHeading: 'பரிமேலழகர் உரை',
     tabToday: 'இன்றைய குறள்',
     tabBrowse: 'அனைத்தும்',
-    backToList: '← பட்டியலுக்குத் திரும்பு'
+    backToList: '← பட்டியலுக்குத் திரும்பு',
+    play: 'ஒலிக்க · Listen',
+    playing: 'ஒலிக்கிறது… · Playing…'
   },
   en: {
     showCore: 'Show meaning',
@@ -21,9 +23,28 @@ const LABELS = {
     fullHeading: "Parimelazhagar's commentary (translated)",
     tabToday: 'Today',
     tabBrowse: 'Browse All',
-    backToList: '← Back to list'
+    backToList: '← Back to list',
+    play: 'Listen',
+    playing: 'Playing…'
   }
 };
+
+function speakTamil(text, onEnd) {
+  if (!('speechSynthesis' in window)) {
+    alert('Audio is not supported on this browser.');
+    if (onEnd) onEnd();
+    return;
+  }
+  window.speechSynthesis.cancel();
+  const utterance = new SpeechSynthesisUtterance(text.replace(/\n/g, ', '));
+  const voices = window.speechSynthesis.getVoices();
+  const tamilVoice = voices.find(v => v.lang && v.lang.toLowerCase().startsWith('ta'));
+  if (tamilVoice) utterance.voice = tamilVoice;
+  utterance.lang = 'ta-IN';
+  utterance.rate = 0.8;
+  if (onEnd) utterance.onend = onEnd;
+  window.speechSynthesis.speak(utterance);
+}
 
 function pickTodayKural(list) {
   const anchor = new Date('2026-01-01T00:00:00');
@@ -93,6 +114,18 @@ function renderKuralCard(kural, showBack) {
       renderCurrentView();
     });
   }
+
+  const playBtn = document.getElementById('play-kural');
+  const playLabel = document.getElementById('play-label');
+  playLabel.textContent = labels.play;
+  playBtn.addEventListener('click', () => {
+    playBtn.classList.add('playing');
+    playLabel.textContent = labels.playing;
+    speakTamil(kural.kural_ta, () => {
+      playBtn.classList.remove('playing');
+      playLabel.textContent = labels.play;
+    });
+  });
 }
 
 function renderList() {
