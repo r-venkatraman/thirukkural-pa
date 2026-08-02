@@ -8,11 +8,11 @@ Copy-Item -Path app\* -Destination docs -Recurse -Force
 
 3. Bump the cache version — open app/service-worker.js in VS Code, find: Note: Version V is incremental, hence be mindful while updating...
 
-const CACHE_NAME = 'thirukkural-v12';
+const CACHE_NAME = 'thirukkural-v14';
 
 Change to:
 
-const CACHE_NAME = 'thirukkural-v13';
+const CACHE_NAME = 'thirukkural-v15';
 
 Save, then re-sync just that file:
 
@@ -21,9 +21,21 @@ Copy-Item -Path app\service-worker.js -Destination docs\service-worker.js -Force
 4. Commit and push: (update the commit comment)
 
 git add .
-git commit -m "Improvements, Search, Grouping"
+git commit -m "120 kurals complete — batch (91–120) finished"
 git push
 
 5. Verify live data:
 
-https://r-venkatraman.github.io/thirukkural-pa/data/kurals.json?v=13
+https://r-venkatraman.github.io/thirukkural-pa/data/kurals.json?v=15
+
+
+
+
+====
+
+
+
+One highlight worth knowing about: Adhikaram 12 (நடுவு நிலைமை / Impartiality) produced some of the strongest Gita parallels yet — kural 111 and Gita 6.9 are almost word-for-word matches on treating friends and enemies with equal fairness, and kural 115/118 line up closely with Gita 2.38 and 14.24 on equanimity through gain and loss. Worth a look when you review.
+
+120 of 1,330 kurals done — that's the entirety of the first "sub-book" pattern (Adhikarams 1–12, all part of Arathuppal's Illaraviyal/domestic-virtue section). Ready to continue with Adhikarams 13–15 whenever you'd like — same verified-source approach going forward.
+
