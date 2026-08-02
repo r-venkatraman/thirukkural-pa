@@ -18,7 +18,7 @@ const LABELS = {
     gitaBtn: '🕉 கீதையுடன் ஒப்பிடு · Compare with the Gita',
     gitaHeading: 'கீதையின் ஒப்பீடு',
     shareLabel: 'இக்குறளைப் பகிர்க',
-    shareText: (k) => `${k.kural_ta}\n\n"${k.translation_en}"\n— திருக்குறள் ${k.id}, Thirukkural`
+    shareText: (k) => `${k.kural_ta}\n\n"${k.translation_en}"\n— திருக்குறள் ${k.id}, Thirukkural\n\n🕉 Bhagavad Gita parallel: ${k.gita_ref}\n${k.gita_verse_en}`
   },
   en: {
     showCore: 'Show meaning',
@@ -33,7 +33,7 @@ const LABELS = {
     gitaBtn: '🕉 Compare with the Gita',
     gitaHeading: 'Bhagavad Gita Parallel',
     shareLabel: 'Share this kural',
-    shareText: (k) => `${k.kural_ta}\n\n"${k.translation_en}"\n— Thirukkural ${k.id}`
+    shareText: (k) => `${k.kural_ta}\n\n"${k.translation_en}"\n— Thirukkural ${k.id}\n\n🕉 Bhagavad Gita parallel: ${k.gita_ref}\n${k.gita_verse_en}`
   }
 };
 
@@ -109,6 +109,16 @@ function renderKuralCard(kural, showBack) {
   document.getElementById('urai-full-heading').textContent = labels.fullHeading;
   document.getElementById('show-gita').textContent = labels.gitaBtn;
   document.getElementById('gita-heading').textContent = labels.gitaHeading;
+
+  const badge = document.getElementById('match-badge');
+  const strength = kural.gita_match_strength || 'close';
+  const badgeLabels = {
+    direct: currentLang === 'ta' ? '🔗 நேரடி ஒப்புமை' : '🔗 Direct parallel',
+    close: currentLang === 'ta' ? '≈ நெருங்கிய ஒப்புமை' : '≈ Close parallel',
+    thematic: currentLang === 'ta' ? '💭 கருத்தொப்புமை' : '💭 Thematic echo'
+  };
+  badge.textContent = badgeLabels[strength];
+  badge.className = 'match-badge ' + strength;
   document.getElementById('share-label').textContent = labels.shareLabel;
 
   const coreBlock = document.getElementById('urai-core-block');
@@ -224,12 +234,69 @@ function groupByAdhikaram(list) {
   return groups;
 }
 
+function buildStatsBar() {
+  const bar = document.createElement('div');
+  bar.className = 'stats-bar';
+
+  const totalAdhikarams = new Set(kurals.map(k => k.adhikaram_ta)).size;
+  const directCount = kurals.filter(k => k.gita_match_strength === 'direct').length;
+  const gitaCount = kurals.filter(k => k.gita_ref).length;
+
+  const stats = currentLang === 'ta'
+    ? [[kurals.length, 'குறள்கள்'], [totalAdhikarams, 'அதிகாரங்கள்'], [gitaCount, 'கீதை ஒப்புமைகள்'], [directCount, 'நேரடி ஒப்புமைகள்']]
+    : [[kurals.length, 'Kurals'], [totalAdhikarams, 'Chapters'], [gitaCount, 'Gita parallels'], [directCount, 'Direct matches']];
+
+  stats.forEach(([num, label]) => {
+    const pill = document.createElement('div');
+    pill.className = 'stat-pill';
+    pill.innerHTML = `<span class="stat-num">${num}</span><span class="stat-label">${label}</span>`;
+    bar.appendChild(pill);
+  });
+
+  return bar;
+}
+
+function buildHighlightsSection() {
+  const directs = kurals.filter(k => k.gita_match_strength === 'direct');
+  if (directs.length === 0) return null;
+
+  const details = document.createElement('details');
+  details.className = 'highlights-group';
+  const summary = document.createElement('summary');
+  summary.textContent = currentLang === 'ta'
+    ? `கீதையுடன் மிகச் சிறந்த ஒப்புமைகள் (${directs.length})`
+    : `Strongest Gita Parallels (${directs.length})`;
+  details.appendChild(summary);
+
+  const itemsEl = document.createElement('div');
+  itemsEl.className = 'highlights-items';
+  directs.forEach(k => {
+    const btn = document.createElement('button');
+    btn.className = 'highlight-item';
+    const preview = currentLang === 'ta' ? k.kural_ta.replace('\n', ' ') : k.gita_ref;
+    btn.innerHTML = `<span class="hl-num">#${k.id}</span><span>${preview}</span>`;
+    btn.addEventListener('click', () => {
+      detailFromList = true;
+      currentView = 'detail-' + k.id;
+      renderKuralCard(k, true);
+    });
+    itemsEl.appendChild(btn);
+  });
+  details.appendChild(itemsEl);
+  return details;
+}
+
 function renderList() {
   const app = document.getElementById('app');
   app.innerHTML = '';
 
   const wrap = document.createElement('div');
   wrap.className = 'browse-wrap';
+
+  wrap.appendChild(buildStatsBar());
+
+  const highlights = buildHighlightsSection();
+  if (highlights) wrap.appendChild(highlights);
 
   const searchWrap = document.createElement('div');
   searchWrap.className = 'search-wrap';

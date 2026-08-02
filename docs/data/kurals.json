@@ -16,7 +16,8 @@
     "gita_verse_translit": "akṣarāṇām akāro'smi",
     "gita_verse_en": "\"Among letters, I am the letter A.\" — Krishna, describing His own primal nature.",
     "gita_parallel_note_en": "Both texts independently reach for the same image: the first letter of the alphabet as a symbol for the divine source from which everything else proceeds.",
-    "gita_parallel_note_ta": "இரு நூல்களும் ஒரே உவமையைப் பயன்படுத்துகின்றன — எழுத்துக்களின் முதலாகிய 'அ', அனைத்தும் தோன்றும் மூலமாகிய இறைவனைக் குறிக்கும் குறியீடாகும்."
+    "gita_parallel_note_ta": "இரு நூல்களும் ஒரே உவமையைப் பயன்படுத்துகின்றன — எழுத்துக்களின் முதலாகிய 'அ', அனைத்தும் தோன்றும் மூலமாகிய இறைவனைக் குறிக்கும் குறியீடாகும்.",
+    "gita_match_strength": "close"
   },
   {
     "id": 2,
@@ -35,7 +36,8 @@
     "gita_verse_translit": "bahūnāṁ janmanām ante jñānavān māṁ prapadyate",
     "gita_verse_en": "\"After many births, the one who has attained wisdom surrenders to Me.\"",
     "gita_parallel_note_en": "Both verses agree that learning finds its true purpose only when it culminates in surrender to, or worship of, the Divine — knowledge alone is incomplete.",
-    "gita_parallel_note_ta": "கல்வியின் முழுமையான பயன், இறைவனை வழிபடும்போதே கிடைக்கிறது என்பதை இரு நூல்களும் வலியுறுத்துகின்றன."
+    "gita_parallel_note_ta": "கல்வியின் முழுமையான பயன், இறைவனை வழிபடும்போதே கிடைக்கிறது என்பதை இரு நூல்களும் வலியுறுத்துகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 3,
@@ -54,7 +56,8 @@
     "gita_verse_translit": "man-manā bhava mad-bhakto mad-yājī māṁ namaskuru",
     "gita_verse_en": "\"Fix your mind on Me, be devoted to Me, worship Me, bow down to Me.\"",
     "gita_parallel_note_en": "Both point to sustained inward meditation on the Divine as the path to lasting flourishing.",
-    "gita_parallel_note_ta": "இறைவனை மனத்தில் நிலையாகத் தியானிப்பதே நீடித்த வாழ்வுக்கும் புகழுக்கும் வழி என்பதை இரு நூல்களும் கூறுகின்றன."
+    "gita_parallel_note_ta": "இறைவனை மனத்தில் நிலையாகத் தியானிப்பதே நீடித்த வாழ்வுக்கும் புகழுக்கும் வழி என்பதை இரு நூல்களும் கூறுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 4,
@@ -73,7 +76,8 @@
     "gita_verse_translit": "vīta-rāga-bhaya-krodhaḥ sthita-dhīr munir ucyate",
     "gita_verse_en": "\"One free from attachment, fear, and anger — steady in wisdom — is called a sage.\"",
     "gita_parallel_note_en": "Both texts identify freedom from desire and aversion as the mark of one who has reached the Divine, and the source of freedom from suffering.",
-    "gita_parallel_note_ta": "விருப்பு வெறுப்பு அற்ற நிலையே இறைவனை அடைந்தவரின் அடையாளம் என இரு நூல்களும் உணர்த்துகின்றன."
+    "gita_parallel_note_ta": "விருப்பு வெறுப்பு அற்ற நிலையே இறைவனை அடைந்தவரின் அடையாளம் என இரு நூல்களும் உணர்த்துகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 5,
@@ -92,7 +96,8 @@
     "gita_verse_translit": "buddhi-yukto jahātīha ubhe sukṛta-duṣkṛte",
     "gita_verse_en": "\"One united with wisdom casts off, even here, both good and evil deeds.\"",
     "gita_parallel_note_en": "Both verses describe a devotee as rising above the ordinary chain of good and bad karma through devotion to the Divine.",
-    "gita_parallel_note_ta": "இறைவன் புகழை விரும்பியவர்க்கு நல்வினை தீவினை இரண்டும் சேரா என்பதை கீதையும் இதே கருத்தில் கூறுகிறது."
+    "gita_parallel_note_ta": "இறைவன் புகழை விரும்பியவர்க்கு நல்வினை தீவினை இரண்டும் சேரா என்பதை கீதையும் இதே கருத்தில் கூறுகிறது.",
+    "gita_match_strength": "close"
   },
   {
     "id": 6,
@@ -111,7 +116,8 @@
     "gita_verse_translit": "vaśe hi yasyendriyāṇi tasya prajñā pratiṣṭhitā",
     "gita_verse_en": "\"One whose senses are under control — that one's wisdom is steady.\"",
     "gita_parallel_note_en": "Both texts locate lasting steadiness in mastery over the five senses, achieved through devotion to the Divine.",
-    "gita_parallel_note_ta": "ஐம்பொறிகளை அடக்கியவரே நிலையான ஞானம் உடையவர் என்பதை இரு நூல்களும் ஒத்துக் கூறுகின்றன."
+    "gita_parallel_note_ta": "ஐம்பொறிகளை அடக்கியவரே நிலையான ஞானம் உடையவர் என்பதை இரு நூல்களும் ஒத்துக் கூறுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 7,
@@ -130,7 +136,8 @@
     "gita_verse_translit": "jñātvā māṁ śāntim ṛcchati",
     "gita_verse_en": "\"Knowing Me, one attains peace.\"",
     "gita_parallel_note_en": "Both verses locate the removal of inner anxiety specifically in reaching or knowing the Divine — not in any worldly remedy.",
-    "gita_parallel_note_ta": "மனக்கவலை நீங்குவது இறைவனை அடைவதன் மூலமே என்பதை இரு நூல்களும் கூறுகின்றன."
+    "gita_parallel_note_ta": "மனக்கவலை நீங்குவது இறைவனை அடைவதன் மூலமே என்பதை இரு நூல்களும் கூறுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 8,
@@ -149,7 +156,8 @@
     "gita_verse_translit": "sarvaṁ jñāna-plavenaiva vṛjinaṁ santariṣyasi",
     "gita_verse_en": "\"By the boat of knowledge alone, you shall cross over all sin.\"",
     "gita_parallel_note_en": "A striking parallel image: both texts picture wrongdoing as a sea to be crossed, and the Divine (or knowledge of the Divine) as the vessel that carries one across.",
-    "gita_parallel_note_ta": "பாவக்கடலைக் கடக்க இறைவனே கப்பல் என்ற உவமையை இரு நூல்களும் பகிர்ந்து கொள்கின்றன."
+    "gita_parallel_note_ta": "பாவக்கடலைக் கடக்க இறைவனே கப்பல் என்ற உவமையை இரு நூல்களும் பகிர்ந்து கொள்கின்றன.",
+    "gita_match_strength": "direct"
   },
   {
     "id": 9,
@@ -168,7 +176,8 @@
     "gita_verse_translit": "sarva-dharmān parityajya mām ekaṁ śaraṇaṁ vraja",
     "gita_verse_en": "\"Abandon all other duties and surrender unto Me alone.\"",
     "gita_parallel_note_en": "Both texts treat surrender to the Divine as the one indispensable act — without it, every other attainment (learning, ritual, effort) is called incomplete or fruitless.",
-    "gita_parallel_note_ta": "இறைவனை வணங்காத எந்த சாதனையும் பயனற்றது என்ற கருத்தை இரு நூல்களும் பகிர்கின்றன."
+    "gita_parallel_note_ta": "இறைவனை வணங்காத எந்த சாதனையும் பயனற்றது என்ற கருத்தை இரு நூல்களும் பகிர்கின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 10,
@@ -187,7 +196,8 @@
     "gita_verse_translit": "tyaktvā dehaṁ punar janma naiti mām eti",
     "gita_verse_en": "\"Having left the body, one does not take birth again, but comes to Me.\"",
     "gita_parallel_note_en": "Both texts picture the cycle of birth as a vast sea, and union with the Divine as the only way across it, ending the cycle of rebirth.",
-    "gita_parallel_note_ta": "பிறவிக்கடலைக் கடக்க இறைவனை அடைவதே ஒரே வழி என்பதை இரு நூல்களும் உறுதிபடக் கூறுகின்றன."
+    "gita_parallel_note_ta": "பிறவிக்கடலைக் கடக்க இறைவனை அடைவதே ஒரே வழி என்பதை இரு நூல்களும் உறுதிபடக் கூறுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 11,
@@ -206,7 +216,8 @@
     "gita_verse_translit": "annād bhavanti bhūtāni parjanyād anna-sambhavaḥ",
     "gita_verse_en": "\"From food, creatures come into being; food arises from rain.\"",
     "gita_parallel_note_en": "A near-identical causal chain: both texts trace all life back to rain as the root of sustenance — Thirukkural calls rain itself nectar, the Gita traces food, and therefore life, directly to rain.",
-    "gita_parallel_note_ta": "உயிர்களின் இருப்புக்கு மழையே அடிப்படை என்ற கருத்தை இரு நூல்களும் ஒரே வகையில் கூறுகின்றன."
+    "gita_parallel_note_ta": "உயிர்களின் இருப்புக்கு மழையே அடிப்படை என்ற கருத்தை இரு நூல்களும் ஒரே வகையில் கூறுகின்றன.",
+    "gita_match_strength": "direct"
   },
   {
     "id": 12,
@@ -225,7 +236,8 @@
     "gita_verse_translit": "puṣṇāmi cauṣadhīḥ sarvāḥ",
     "gita_verse_en": "\"I nourish all plants [as the moon/rain-bearing principle].\"",
     "gita_parallel_note_en": "Both texts describe a divine or natural force that both grows food and becomes nourishment itself — rain and the Gita's cosmic nourishing principle both play a double role: producer and sustenance.",
-    "gita_parallel_note_ta": "உணவை உண்டாக்குவதும் உணவாக மாறுவதும் என்ற இரட்டைப் பணியை மழையும் கீதையின் தெய்வீக சக்தியும் ஒத்திசைவாகச் செய்கின்றன."
+    "gita_parallel_note_ta": "உணவை உண்டாக்குவதும் உணவாக மாறுவதும் என்ற இரட்டைப் பணியை மழையும் கீதையின் தெய்வீக சக்தியும் ஒத்திசைவாகச் செய்கின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 13,
@@ -244,7 +256,8 @@
     "gita_verse_translit": "evaṁ pravartitaṁ chakraṁ nānuvartayatīha yaḥ",
     "gita_verse_en": "\"One who does not follow this cycle [of sacrifice, rain, food, life] here lives in vain.\"",
     "gita_parallel_note_en": "Both texts warn of the same consequence from the same broken chain: when the rain-food cycle fails, life itself suffers or becomes meaningless.",
-    "gita_parallel_note_ta": "மழை-உணவு சுழற்சி தடைபட்டால் வாழ்க்கை வாடும் என்ற எச்சரிக்கையை இரு நூல்களும் தருகின்றன."
+    "gita_parallel_note_ta": "மழை-உணவு சுழற்சி தடைபட்டால் வாழ்க்கை வாடும் என்ற எச்சரிக்கையை இரு நூல்களும் தருகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 14,
@@ -263,7 +276,8 @@
     "gita_verse_translit": "yajñād bhavati parjanyaḥ",
     "gita_verse_en": "\"Rain arises from sacrifice [the cosmic order of right action].\"",
     "gita_parallel_note_en": "Both texts link agricultural livelihood directly to rain, and by extension to a larger order (dharma/yajna) that must be maintained for that rain to continue.",
-    "gita_parallel_note_ta": "உழவும் வாழ்வும் மழையைச் சார்ந்தவை என்ற கருத்தை இரு நூல்களும் ஒரே இழையில் தொடர்கின்றன."
+    "gita_parallel_note_ta": "உழவும் வாழ்வும் மழையைச் சார்ந்தவை என்ற கருத்தை இரு நூல்களும் ஒரே இழையில் தொடர்கின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 15,
@@ -282,7 +296,8 @@
     "gita_verse_translit": "ahaṁ vṛṣṭir apohāmi",
     "gita_verse_en": "\"I give rain, and I withhold it.\"",
     "gita_parallel_note_en": "A striking direct parallel — both texts locate the power to both destroy (through withholding) and restore (through giving) within the same single force, rain.",
-    "gita_parallel_note_ta": "அழிப்பதும் காப்பாற்றுவதும் ஒரே சக்தியிடமிருந்தே வருகிறது என்பதை இரு நூல்களும் நேரடியாகக் கூறுகின்றன."
+    "gita_parallel_note_ta": "அழிப்பதும் காப்பாற்றுவதும் ஒரே சக்தியிடமிருந்தே வருகிறது என்பதை இரு நூல்களும் நேரடியாகக் கூறுகின்றன.",
+    "gita_match_strength": "direct"
   },
   {
     "id": 16,
@@ -301,7 +316,8 @@
     "gita_verse_translit": "annād bhavanti bhūtāni",
     "gita_verse_en": "\"From food, creatures come into being\" — and food itself depends wholly on rain.",
     "gita_parallel_note_en": "Both texts observe the same visible fact of nature: without rain, even the most basic sign of life — a blade of grass — fails to appear.",
-    "gita_parallel_note_ta": "மழையின்றி புல் கூட முளைக்காது என்ற இயற்கை உண்மையை இரு நூல்களும் ஏற்றுக்கொள்கின்றன."
+    "gita_parallel_note_ta": "மழையின்றி புல் கூட முளைக்காது என்ற இயற்கை உண்மையை இரு நூல்களும் ஏற்றுக்கொள்கின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 17,
@@ -320,7 +336,8 @@
     "gita_verse_translit": "karma brahmodbhavaṁ viddhi",
     "gita_verse_en": "\"Know that action arises from Brahman [the cosmic order]\" — completing the cycle: Brahman, rain, food, action, back to Brahman.",
     "gita_parallel_note_en": "Both texts describe self-sustaining cosmic cycles that depend on each stage giving back to the one before it — break the cycle at any point, and even the largest reservoir eventually diminishes.",
-    "gita_parallel_note_ta": "ஒவ்வொரு கட்டமும் முந்தையதற்குத் திருப்பிக் கொடுக்க வேண்டிய சுழற்சியை இரு நூல்களும் விளக்குகின்றன."
+    "gita_parallel_note_ta": "ஒவ்வொரு கட்டமும் முந்தையதற்குத் திருப்பிக் கொடுக்க வேண்டிய சுழற்சியை இரு நூல்களும் விளக்குகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 18,
@@ -339,7 +356,8 @@
     "gita_verse_translit": "iṣṭān bhogān hi vo devā dāsyante yajña-bhāvitāḥ",
     "gita_verse_en": "\"Nourished by sacrifice, the gods will grant you the enjoyments you desire.\"",
     "gita_parallel_note_en": "Both texts describe a reciprocal relationship between rain/sacrifice and worship of the divine — when the material basis (rain) fails, the whole chain of ritual and offering that depends on it fails too.",
-    "gita_parallel_note_ta": "வழிபாடும் வேள்வியும் மழையையும் பொருள் வளத்தையும் சார்ந்தவை என்ற பரஸ்பர உறவை இரு நூல்களும் விளக்குகின்றன."
+    "gita_parallel_note_ta": "வழிபாடும் வேள்வியும் மழையையும் பொருள் வளத்தையும் சார்ந்தவை என்ற பரஸ்பர உறவை இரு நூல்களும் விளக்குகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 19,
@@ -358,7 +376,8 @@
     "gita_verse_translit": "āhāras tv api sarvasya tri-vidho bhavati priyaḥ",
     "gita_verse_en": "\"Even food, for all people, is of three kinds\" — the Gita ties food (born of rain) directly to the quality of one's tapas and dāna.",
     "gita_parallel_note_en": "Both texts link the material foundation provided by rain to the possibility of higher spiritual practices like charity and austerity — virtue itself is shown to rest on a material base.",
-    "gita_parallel_note_ta": "தானமும் தவமும் பொருள் அடித்தளத்தையே சார்ந்தவை என்ற கருத்தை இரு நூல்களும் பகிர்கின்றன."
+    "gita_parallel_note_ta": "தானமும் தவமும் பொருள் அடித்தளத்தையே சார்ந்தவை என்ற கருத்தை இரு நூல்களும் பகிர்கின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 20,
@@ -377,7 +396,8 @@
     "gita_verse_translit": "evaṁ pravartitaṁ chakraṁ nānuvartayatīha yaḥ",
     "gita_verse_en": "\"One who does not follow this cycle here lives in vain, rejoicing in the senses, O Partha.\"",
     "gita_parallel_note_en": "Both texts close their treatment of rain the same way — not as a mere weather event, but as the material foundation without which a righteous, meaningful life is impossible.",
-    "gita_parallel_note_ta": "மழையை வெறும் இயற்கை நிகழ்வாக அல்லாமல், அறமுள்ள வாழ்க்கையின் அடித்தளமாகவே இரு நூல்களும் முடிவாகக் கூறுகின்றன."
+    "gita_parallel_note_ta": "மழையை வெறும் இயற்கை நிகழ்வாக அல்லாமல், அறமுள்ள வாழ்க்கையின் அடித்தளமாகவே இரு நூல்களும் முடிவாகக் கூறுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 21,
@@ -396,7 +416,8 @@
     "gita_verse_translit": "anāśritaḥ karma-phalaṁ kāryaṁ karma karoti yaḥ, sa sannyāsī",
     "gita_verse_en": "\"One who performs duty without depending on its results — that one is a true renunciate.\"",
     "gita_parallel_note_en": "Both texts treat true renunciation as something rare enough that ordinary description falls short — the Gita redefines the sannyasi through steady right action, echoing the Kural's need for scriptural authority to capture such greatness.",
-    "gita_parallel_note_ta": "உண்மையான துறவின் பெருமையை சாதாரண சொற்களால் அளவிட முடியாது என்பதை இரு நூல்களும் ஏற்றுக்கொள்கின்றன."
+    "gita_parallel_note_ta": "உண்மையான துறவின் பெருமையை சாதாரண சொற்களால் அளவிட முடியாது என்பதை இரு நூல்களும் ஏற்றுக்கொள்கின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 22,
@@ -415,7 +436,8 @@
     "gita_verse_translit": "manuṣyāṇāṁ sahasreṣu kaścid yatati siddhaye",
     "gita_verse_en": "\"Among thousands of men, scarcely one strives for perfection.\"",
     "gita_parallel_note_en": "Both texts point to the same rarity — true renunciation or spiritual striving is so uncommon that ordinary counting or comparison fails to capture it.",
-    "gita_parallel_note_ta": "உண்மையான துறவு மிகவும் அரிது என்ற கருத்தை இரு நூல்களும் பகிர்கின்றன."
+    "gita_parallel_note_ta": "உண்மையான துறவு மிகவும் அரிது என்ற கருத்தை இரு நூல்களும் பகிர்கின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 23,
@@ -434,7 +456,8 @@
     "gita_verse_translit": "yat sāṅkhyaiḥ prāpyate sthānaṁ tad yogair api gamyate",
     "gita_verse_en": "\"The state reached by philosophical discernment is also reached through disciplined action — the two paths lead to one goal.\"",
     "gita_parallel_note_en": "Both texts describe a person who has clearly understood two apparently different paths and, through that very discernment, arrives at one unified, world-illuminating virtue.",
-    "gita_parallel_note_ta": "இரு வழிகளையும் தெளிவாகப் புரிந்துகொண்டு ஒரே அறவழியை மேற்கொள்வதை இரு நூல்களும் விளக்குகின்றன."
+    "gita_parallel_note_ta": "இரு வழிகளையும் தெளிவாகப் புரிந்துகொண்டு ஒரே அறவழியை மேற்கொள்வதை இரு நூல்களும் விளக்குகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 24,
@@ -453,7 +476,8 @@
     "gita_verse_translit": "abhyāsena tu kaunteya vairāgyeṇa ca gṛhyate",
     "gita_verse_en": "\"The restless mind is mastered through practice and detachment.\"",
     "gita_parallel_note_en": "Both texts use the image of disciplined effort — a goad, or practice and detachment — as the tool that tames the senses and yields a higher state of being.",
-    "gita_parallel_note_ta": "பயிற்சியும் உறுதியும் மூலம் புலன்களை அடக்குவதே உயர்நிலைக்கு வழி என்பதை இரு நூல்களும் கூறுகின்றன."
+    "gita_parallel_note_ta": "பயிற்சியும் உறுதியும் மூலம் புலன்களை அடக்குவதே உயர்நிலைக்கு வழி என்பதை இரு நூல்களும் கூறுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 25,
@@ -472,7 +496,8 @@
     "gita_verse_translit": "yasya sarvāṇīndriyāṇīndriyārthebhyas tasya prajñā pratiṣṭhitā",
     "gita_verse_en": "\"One whose senses are fully withdrawn from their objects — that one's wisdom stands firm.\"",
     "gita_parallel_note_en": "Both texts point to the same evidence of true self-mastery — power over the senses is treated as visible proof, witnessed by the highest authority in each tradition.",
-    "gita_parallel_note_ta": "ஐம்பொறிகளை அடக்கியவரின் ஆற்றலே அவரது மேன்மைக்குச் சான்று என்பதை இரு நூல்களும் ஏற்கின்றன."
+    "gita_parallel_note_ta": "ஐம்பொறிகளை அடக்கியவரின் ஆற்றலே அவரது மேன்மைக்குச் சான்று என்பதை இரு நூல்களும் ஏற்கின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 26,
@@ -491,7 +516,8 @@
     "gita_verse_translit": "muktasaṅgo'nahaṁ-vādī dhṛty-utsāha-samanvitaḥ",
     "gita_verse_en": "\"Free from attachment, without false ego, endowed with steadiness and enthusiasm [such a doer is called sattvic].\"",
     "gita_parallel_note_en": "Both texts define true greatness by the capacity to act with resolve where others falter — the Gita's description of the steady, enthusiastic doer mirrors the Kural's definition of greatness through difficult accomplishment.",
-    "gita_parallel_note_ta": "மற்றவர்களால் இயலாத செயல்களை உறுதியுடன் செய்பவரையே இரு நூல்களும் பெரியோராகக் கருதுகின்றன."
+    "gita_parallel_note_ta": "மற்றவர்களால் இயலாத செயல்களை உறுதியுடன் செய்பவரையே இரு நூல்களும் பெரியோராகக் கருதுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 27,
@@ -510,7 +536,8 @@
     "gita_verse_translit": "yas tv indriyāṇi manasā niyamyārabhate'rjuna",
     "gita_verse_en": "\"One who controls the senses through the mind and engages in action without attachment excels.\"",
     "gita_parallel_note_en": "Both texts locate mastery over the world in mastery over the five senses — external conquest, in both traditions, begins with internal control.",
-    "gita_parallel_note_ta": "புலனடக்கமே உலகை வெல்லும் திறவுகோல் என்பதை இரு நூல்களும் ஒத்துக் கூறுகின்றன."
+    "gita_parallel_note_ta": "புலனடக்கமே உலகை வெல்லும் திறவுகோல் என்பதை இரு நூல்களும் ஒத்துக் கூறுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 28,
@@ -529,7 +556,8 @@
     "gita_verse_translit": "yad yad ācarati śreṣṭhas tat tad evetaro janaḥ",
     "gita_verse_en": "\"Whatever a great person does, others follow; whatever standard they set, the world pursues.\"",
     "gita_parallel_note_en": "Both texts treat the conduct of truthful, great individuals as a living demonstration of higher truth — their lives teach what scripture alone cannot fully convey.",
-    "gita_parallel_note_ta": "பெரியோரின் நடத்தையே உலகுக்கு உண்மையான வழிகாட்டி என்பதை இரு நூல்களும் வலியுறுத்துகின்றன."
+    "gita_parallel_note_ta": "பெரியோரின் நடத்தையே உலகுக்கு உண்மையான வழிகாட்டி என்பதை இரு நூல்களும் வலியுறுத்துகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 29,
@@ -548,7 +576,8 @@
     "gita_verse_translit": "kāma krodhas tathā lobhas tasmād etat trayaṁ tyajet",
     "gita_verse_en": "\"Desire, anger, and greed — these three should be abandoned, as they are gates to ruin.\"",
     "gita_parallel_note_en": "Here the texts diverge instructively rather than align: the Kural marvels at the potency of a virtuous person's rare anger, while the Gita warns against anger itself as a downfall — together they suggest even the virtuous must guard against it, precisely because it is so powerful.",
-    "gita_parallel_note_ta": "இக்குறள் நல்லோரின் அரிய சினத்தின் வலிமையைக் குறிப்பிட, கீதை சினத்தையே தவிர்க்கவேண்டும் என எச்சரிக்கிறது — இரண்டும் சேர்ந்து சினத்தின் ஆற்றலை உணர்த்துகின்றன."
+    "gita_parallel_note_ta": "இக்குறள் நல்லோரின் அரிய சினத்தின் வலிமையைக் குறிப்பிட, கீதை சினத்தையே தவிர்க்கவேண்டும் என எச்சரிக்கிறது — இரண்டும் சேர்ந்து சினத்தின் ஆற்றலை உணர்த்துகின்றன.",
+    "gita_match_strength": "thematic"
   },
   {
     "id": 30,
@@ -567,7 +596,8 @@
     "gita_verse_translit": "vidyā-vinaya-sampanne brāhmaṇe gavi hastini... paṇḍitāḥ sama-darśinaḥ",
     "gita_verse_en": "\"The wise see with equal vision a learned, humble Brahmin, a cow, an elephant, and even an outcaste.\"",
     "gita_parallel_note_en": "A striking direct match — both texts define true nobility not by birth or label, but by the presence of equal, compassionate regard for all beings.",
-    "gita_parallel_note_ta": "பிறப்பால் அல்ல, எல்லா உயிர்கள் மீதும் உள்ள சமமான கருணையாலேயே உண்மையான உயர்வு வரும் என்பதை இரு நூல்களும் நேரடியாக வலியுறுத்துகின்றன."
+    "gita_parallel_note_ta": "பிறப்பால் அல்ல, எல்லா உயிர்கள் மீதும் உள்ள சமமான கருணையாலேயே உண்மையான உயர்வு வரும் என்பதை இரு நூல்களும் நேரடியாக வலியுறுத்துகின்றன.",
+    "gita_match_strength": "direct"
   },
   {
     "id": 31,
@@ -586,7 +616,8 @@
     "gita_verse_translit": "dharmyād dhi yuddhāc chreyo'nyat kṣatriyasya na vidyate",
     "gita_verse_en": "\"There exists nothing better for one's own duty than righteous action.\"",
     "gita_parallel_note_en": "Both texts assert the same ranking — no material or worldly gain outranks virtue or righteous duty itself as life's highest acquisition.",
-    "gita_parallel_note_ta": "அறத்தை விட உயர்ந்த ஆக்கம் வேறில்லை என்பதை இரு நூல்களும் உறுதியாகக் கூறுகின்றன."
+    "gita_parallel_note_ta": "அறத்தை விட உயர்ந்த ஆக்கம் வேறில்லை என்பதை இரு நூல்களும் உறுதியாகக் கூறுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 32,
@@ -605,7 +636,8 @@
     "gita_verse_translit": "atha cet tvam imaṁ dharmyaṁ saṅgrāmaṁ na kariṣyasi... pāpam avāpsyasi",
     "gita_verse_en": "\"If you fail to perform this righteous duty, you shall incur sin and loss.\"",
     "gita_parallel_note_en": "Both texts frame virtue and its neglect as two sides of the same coin — the highest gain on one side, the deepest ruin on the other, with no neutral middle ground.",
-    "gita_parallel_note_ta": "அறத்தையும் அதன் மறதியையும் ஒரே உண்மையின் இரு முகங்களாக இரு நூல்களும் சித்தரிக்கின்றன."
+    "gita_parallel_note_ta": "அறத்தையும் அதன் மறதியையும் ஒரே உண்மையின் இரு முகங்களாக இரு நூல்களும் சித்தரிக்கின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 33,
@@ -624,7 +656,8 @@
     "gita_verse_translit": "niyataṁ kuru karma tvaṁ karma jyāyo hy akarmaṇaḥ",
     "gita_verse_en": "\"Perform your prescribed duty, for action is better than inaction.\"",
     "gita_parallel_note_en": "Both texts urge continuous, unceasing right action rather than passive delay — virtue or duty is to be actively performed at every opportunity, not merely contemplated.",
-    "gita_parallel_note_ta": "அறத்தை நிறுத்தாமல் தொடர்ந்து செய்யவேண்டும் என்ற அவசரத்தை இரு நூல்களும் வலியுறுத்துகின்றன."
+    "gita_parallel_note_ta": "அறத்தை நிறுத்தாமல் தொடர்ந்து செய்யவேண்டும் என்ற அவசரத்தை இரு நூல்களும் வலியுறுத்துகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 34,
@@ -643,7 +676,8 @@
     "gita_verse_translit": "manaḥ-prasādaḥ saumyatvaṁ... bhāva-saṁśuddhir ity etat tapo mānasam ucyate",
     "gita_verse_en": "\"Serenity of mind, gentleness, silence, self-control, and purity of heart — this is called austerity of the mind.\"",
     "gita_parallel_note_en": "Both texts locate true virtue not in outward ritual or show, but in the inner purity and stillness of the mind — external practice without this inner condition is judged insufficient by both.",
-    "gita_parallel_note_ta": "வெளிப்படையான சடங்குகளைவிட மனத்தூய்மையே உண்மையான அறம் என்பதை இரு நூல்களும் ஏற்றுக்கொள்கின்றன."
+    "gita_parallel_note_ta": "வெளிப்படையான சடங்குகளைவிட மனத்தூய்மையே உண்மையான அறம் என்பதை இரு நூல்களும் ஏற்றுக்கொள்கின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 35,
@@ -662,7 +696,8 @@
     "gita_verse_translit": "dambho darpo'bhimānaś ca krodhaḥ pāruṣyam eva ca",
     "gita_verse_en": "\"Hypocrisy, arrogance, conceit, anger, and harshness [mark those of demonic nature].\"",
     "gita_parallel_note_en": "Both texts compile a short list of the exact traits that undo virtue — anger and harshness appear in both lists almost verbatim, framed as the clearest markers of a person who has strayed from right conduct.",
-    "gita_parallel_note_ta": "கோபமும் கடுமொழியும் அறத்திற்கு நேர் எதிரானவை என்பதை இரு நூல்களும் தெளிவாகப் பட்டியலிடுகின்றன."
+    "gita_parallel_note_ta": "கோபமும் கடுமொழியும் அறத்திற்கு நேர் எதிரானவை என்பதை இரு நூல்களும் தெளிவாகப் பட்டியலிடுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 36,
@@ -681,7 +716,8 @@
     "gita_verse_translit": "yaṁ yaṁ vāpi smaran bhāvaṁ tyajaty ante kalevaram",
     "gita_verse_en": "\"Whatever state of being one dwells upon at the end, that state alone one attains thereafter.\"",
     "gita_parallel_note_en": "Both texts point to the same principle at the moment of death — that which one has genuinely cultivated in life (virtue, or one's inner state) is what truly carries forward, while everything else is left behind.",
-    "gita_parallel_note_ta": "இறப்பின்போது அழியாமல் உடன் செல்வது நாம் வளர்த்துக்கொண்ட அறமே என்பதை இரு நூல்களும் கூறுகின்றன."
+    "gita_parallel_note_ta": "இறப்பின்போது அழியாமல் உடன் செல்வது நாம் வளர்த்துக்கொண்ட அறமே என்பதை இரு நூல்களும் கூறுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 37,
@@ -700,7 +736,8 @@
     "gita_verse_translit": "ūrdhvaṁ gacchanti sattva-sthā madhye tiṣṭhanti rājasāḥ",
     "gita_verse_en": "\"Those established in goodness rise upward; those in passion remain in the middle.\"",
     "gita_parallel_note_en": "Both texts observe that one's conduct produces visibly different life outcomes or destinies — the Gita in terms of the three gunas, the Kural in the plain, everyday contrast of two people's stations in life.",
-    "gita_parallel_note_ta": "செயல்களின் பயனாக வெவ்வேறு நிலைகள் தோன்றுவதை இரு நூல்களும் காட்டுகின்றன."
+    "gita_parallel_note_ta": "செயல்களின் பயனாக வெவ்வேறு நிலைகள் தோன்றுவதை இரு நூல்களும் காட்டுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 38,
@@ -719,7 +756,8 @@
     "gita_verse_translit": "na hi kalyāṇa-kṛt kaścid durgatiṁ tāta gacchati",
     "gita_verse_en": "\"No doer of good, my friend, ever comes to a bad end.\"",
     "gita_parallel_note_en": "A direct, near-identical assurance in both texts — consistent good conduct is described as an active protection against future misfortune, not merely a passive virtue.",
-    "gita_parallel_note_ta": "தொடர்ந்து நன்மை செய்பவருக்குத் தீய முடிவு வராது என்பதை இரு நூல்களும் நேரடியாக உறுதிசெய்கின்றன."
+    "gita_parallel_note_ta": "தொடர்ந்து நன்மை செய்பவருக்குத் தீய முடிவு வராது என்பதை இரு நூல்களும் நேரடியாக உறுதிசெய்கின்றன.",
+    "gita_match_strength": "direct"
   },
   {
     "id": 39,
@@ -738,7 +776,8 @@
     "gita_verse_translit": "yat tad agre viṣam iva pariṇāme'mṛtopamam, tat sukhaṁ sāttvikaṁ proktam",
     "gita_verse_en": "\"That happiness which seems like poison at first but is like nectar in the end — that is called happiness in goodness.\"",
     "gita_parallel_note_en": "Both texts distinguish true, lasting happiness — rooted in virtue or inner discipline — from superficial pleasure, insisting that only the former carries real, enduring worth.",
-    "gita_parallel_note_ta": "அறத்தாலான இன்பமே நிலையான உண்மையான இன்பம் என்பதை இரு நூல்களும் வலியுறுத்துகின்றன."
+    "gita_parallel_note_ta": "அறத்தாலான இன்பமே நிலையான உண்மையான இன்பம் என்பதை இரு நூல்களும் வலியுறுத்துகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 40,
@@ -757,7 +796,8 @@
     "gita_verse_translit": "kāryam ity eva yat karma niyataṁ kriyate'rjuna",
     "gita_verse_en": "\"That action which is performed simply because it ought to be done, O Arjuna — that alone is true sattvic renunciation.\"",
     "gita_parallel_note_en": "Both texts close on the same simple standard — one acts because it is right to act (virtue), not from desire or fear; that single criterion is enough to guide a life.",
-    "gita_parallel_note_ta": "செய்யவேண்டியதை செய்யவேண்டும் என்பதற்காகவே செய்யவேண்டும் என்ற எளிய நெறியை இரு நூல்களும் இறுதியாக வலியுறுத்துகின்றன."
+    "gita_parallel_note_ta": "செய்யவேண்டியதை செய்யவேண்டும் என்பதற்காகவே செய்யவேண்டும் என்ற எளிய நெறியை இரு நூல்களும் இறுதியாக வலியுறுத்துகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 41,
@@ -776,7 +816,8 @@
     "gita_verse_translit": "karmaṇaiva hi saṁsiddhim āsthitā janakādayaḥ",
     "gita_verse_en": "\"Even King Janaka and others attained perfection through action alone [while living in the world].\"",
     "gita_parallel_note_en": "Both texts elevate the engaged householder rather than treating worldly life as a lesser path — Janaka is the Gita's iconic example, just as the Kural makes the householder the pillar supporting all others.",
-    "gita_parallel_note_ta": "உலகியல் வாழ்க்கையையே உயர்ந்த வழியாக இரு நூல்களும் காட்டுகின்றன."
+    "gita_parallel_note_ta": "உலகியல் வாழ்க்கையையே உயர்ந்த வழியாக இரு நூல்களும் காட்டுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 42,
@@ -795,7 +836,8 @@
     "gita_verse_translit": "lokasaṅgraham evāpi sampaśyan kartum arhasi",
     "gita_verse_en": "\"Considering the welfare of the world, you should act.\"",
     "gita_parallel_note_en": "Both texts frame the householder's engaged life not as self-serving but as a duty of upholding others — ascetics, the poor, and the departed — echoing the Gita's ideal of action for the welfare of all.",
-    "gita_parallel_note_ta": "பிறரின் நலனுக்காகச் செயல்படும் இல்வாழ்வானின் கடமையை இரு நூல்களும் முன்வைக்கின்றன."
+    "gita_parallel_note_ta": "பிறரின் நலனுக்காகச் செயல்படும் இல்வாழ்வானின் கடமையை இரு நூல்களும் முன்வைக்கின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 43,
@@ -814,7 +856,8 @@
     "gita_verse_translit": "devān bhāvayatānena te devā bhāvayantu vaḥ",
     "gita_verse_en": "\"Nourish the gods with this [sacrifice], and may the gods in turn nourish you.\"",
     "gita_parallel_note_en": "Both texts describe a reciprocal web of care — ancestors, gods, guests, kin — that the householder is responsible for sustaining, echoing the Gita's picture of mutual nourishment between humans and the divine.",
-    "gita_parallel_note_ta": "பரஸ்பர கடமைகளின் வலையமைப்பை காப்பதே இல்வாழ்வானின் பணி என்பதை இரு நூல்களும் காட்டுகின்றன."
+    "gita_parallel_note_ta": "பரஸ்பர கடமைகளின் வலையமைப்பை காப்பதே இல்வாழ்வானின் பணி என்பதை இரு நூல்களும் காட்டுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 44,
@@ -833,7 +876,8 @@
     "gita_verse_translit": "tayos tu karma-sannyāsāt karma-yogo viśiṣyate",
     "gita_verse_en": "\"Of the two — renunciation of action and the yoga of action — the yoga of action is superior.\"",
     "gita_parallel_note_en": "A direct and striking match — the Gita explicitly ranks disciplined engaged action above formal renunciation, exactly as the Kural questions what more the ascetic path could offer a virtuous householder.",
-    "gita_parallel_note_ta": "அறவழி இல்வாழ்க்கையே துறவுக்கு நிகரானது அல்லது மேலானது என்பதை இரு நூல்களும் நேரடியாகக் கூறுகின்றன."
+    "gita_parallel_note_ta": "அறவழி இல்வாழ்க்கையே துறவுக்கு நிகரானது அல்லது மேலானது என்பதை இரு நூல்களும் நேரடியாகக் கூறுகின்றன.",
+    "gita_match_strength": "direct"
   },
   {
     "id": 45,
@@ -852,7 +896,8 @@
     "gita_verse_translit": "tapasvibhyo'dhiko yogī... tasmād yogī bhavārjuna",
     "gita_verse_en": "\"The yogi is greater than the ascetic, greater than the man of knowledge, greater than the man of ritual action — therefore become a yogi, Arjuna.\"",
     "gita_parallel_note_en": "Both texts rank the person of properly integrated, disciplined living above those pursuing narrower paths — the true householder, like the Gita's yogi, surpasses those following only austerity or ritual.",
-    "gita_parallel_note_ta": "முறையாக வாழ்பவரே பிற வழிகளில் முயல்பவரைவிட மேலானவர் என்பதை இரு நூல்களும் கூறுகின்றன."
+    "gita_parallel_note_ta": "முறையாக வாழ்பவரே பிற வழிகளில் முயல்பவரைவிட மேலானவர் என்பதை இரு நூல்களும் கூறுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 46,
@@ -871,7 +916,8 @@
     "gita_verse_translit": "na karmaṇām anārambhān naiṣkarmyaṁ puruṣo'śnute",
     "gita_verse_en": "\"Not by merely abstaining from action does one attain freedom from action.\"",
     "gita_parallel_note_en": "Both texts challenge the assumption that formal renunciation is automatically more disciplined than engaged life — true discipline, both argue, lies in how one acts, not merely in withdrawal from action.",
-    "gita_parallel_note_ta": "வெறும் தவிர்த்தலைவிட, சரியாக வாழ்வதே உண்மையான ஒழுக்கம் என்பதை இரு நூல்களும் காட்டுகின்றன."
+    "gita_parallel_note_ta": "வெறும் தவிர்த்தலைவிட, சரியாக வாழ்வதே உண்மையான ஒழுக்கம் என்பதை இரு நூல்களும் காட்டுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 47,
@@ -890,7 +936,8 @@
     "gita_verse_translit": "śreyān sva-dharmo viguṇaḥ para-dharmāt sv-anuṣṭhitāt",
     "gita_verse_en": "\"Better one's own duty, though imperfectly performed, than another's duty well performed.\"",
     "gita_parallel_note_en": "Both texts validate the householder's ordinary duty as legitimate virtue in its own right, so long as it is performed blamelessly — neither requires an extraordinary or ascetic path to count as true dharma.",
-    "gita_parallel_note_ta": "பழிக்கப்படாத முறையில் நடத்தப்படும் சொந்தக் கடமையே உண்மையான அறம் என்பதை இரு நூல்களும் ஏற்கின்றன."
+    "gita_parallel_note_ta": "பழிக்கப்படாத முறையில் நடத்தப்படும் சொந்தக் கடமையே உண்மையான அறம் என்பதை இரு நூல்களும் ஏற்கின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 48,
@@ -909,7 +956,8 @@
     "gita_verse_translit": "bahavo jñāna-tapasā pūtā mad-bhāvam āgatāḥ",
     "gita_verse_en": "\"Many, purified by knowledge and discipline, have attained My own state of being.\"",
     "gita_parallel_note_en": "Both texts hold that right living in this ordinary world — not necessarily otherworldly withdrawal — can elevate a person to a divine or god-like stature.",
-    "gita_parallel_note_ta": "இவ்வுலகிலேயே சரியாக வாழ்வதன் மூலம் தெய்வீக நிலையை அடையலாம் என்பதை இரு நூல்களும் காட்டுகின்றன."
+    "gita_parallel_note_ta": "இவ்வுலகிலேயே சரியாக வாழ்வதன் மூலம் தெய்வீக நிலையை அடையலாம் என்பதை இரு நூல்களும் காட்டுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 49,
@@ -928,7 +976,8 @@
     "gita_verse_translit": "tasmāc chāstraṁ pramāṇaṁ te kāryākārya-vyavasthitau",
     "gita_verse_en": "\"Therefore let scripture be your guide in determining what should and should not be done.\"",
     "gita_parallel_note_en": "Both texts see the balanced pursuit of life's aims as requiring genuine discernment and mastery, not mere instinct — a skill guided by wisdom or scripture rather than left to chance.",
-    "gita_parallel_note_ta": "வாழ்க்கையின் முப்பொருள்களையும் சரியாக அளந்து கையாள்வதற்குத் தெளிவான அறிவு வேண்டும் என்பதை இரு நூல்களும் கூறுகின்றன."
+    "gita_parallel_note_ta": "வாழ்க்கையின் முப்பொருள்களையும் சரியாக அளந்து கையாள்வதற்குத் தெளிவான அறிவு வேண்டும் என்பதை இரு நூல்களும் கூறுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 50,
@@ -947,7 +996,8 @@
     "gita_verse_translit": "adveṣṭā sarva-bhūtānāṁ maitraḥ karuṇa eva ca",
     "gita_verse_en": "\"One who hates no creature, who is friendly and compassionate [is dear to Me].\"",
     "gita_parallel_note_en": "Both texts converge on the same closing ideal — a life defined by the union of love/compassion and righteous conduct, rather than either alone, as the true measure of a well-lived life.",
-    "gita_parallel_note_ta": "அன்பும் அறமும் இணைந்ததே சிறந்த வாழ்க்கை என்ற முடிவை இரு நூல்களும் ஒரே வகையில் அடைகின்றன."
+    "gita_parallel_note_ta": "அன்பும் அறமும் இணைந்ததே சிறந்த வாழ்க்கை என்ற முடிவை இரு நூல்களும் ஒரே வகையில் அடைகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 51,
@@ -966,7 +1016,8 @@
     "gita_verse_translit": "yuktāhāra-vihārasya yukta-ceṣṭasya karmasu",
     "gita_verse_en": "\"For one who is moderate in eating and recreation, balanced in action.\"",
     "gita_parallel_note_en": "Both texts value a life measured and suited to one's actual circumstances rather than excess or mismatch — moderation and fit are prized over extravagance in each.",
-    "gita_parallel_note_ta": "தன் வாழ்க்கையை சூழ்நிலைக்கு ஏற்ப அமைத்துக்கொள்வதை இரு நூல்களும் பாராட்டுகின்றன."
+    "gita_parallel_note_ta": "தன் வாழ்க்கையை சூழ்நிலைக்கு ஏற்ப அமைத்துக்கொள்வதை இரு நூல்களும் பாராட்டுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 52,
@@ -985,7 +1036,8 @@
     "gita_verse_translit": "nāyaṁ loko'sty ayajñasya kuto'nyaḥ",
     "gita_verse_en": "\"For one without sacrifice, this world is not attained — what then of the next?\"",
     "gita_parallel_note_en": "Both verses share the same structural logic: without one essential foundation (sacrifice, or household excellence), no amount of other greatness can compensate.",
-    "gita_parallel_note_ta": "ஒரு அடிப்படைக் குணம் இல்லாவிட்டால் மற்ற பெருமைகள் பயனற்றவை என்ற அமைப்பை இரு நூல்களும் பகிர்கின்றன."
+    "gita_parallel_note_ta": "ஒரு அடிப்படைக் குணம் இல்லாவிட்டால் மற்ற பெருமைகள் பயனற்றவை என்ற அமைப்பை இரு நூல்களும் பகிர்கின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 53,
@@ -1004,7 +1056,8 @@
     "gita_verse_translit": "śāntir aśāntasya kutaḥ sukham",
     "gita_verse_en": "\"How can there be happiness for the one without inner peace?\"",
     "gita_parallel_note_en": "Both verses use the same rhetorical structure — one essential inner quality determines whether everything else counts for anything at all.",
-    "gita_parallel_note_ta": "ஒரு முக்கிய குணம் இருந்தால் அல்லது இல்லாவிட்டால் மற்றவை அர்த்தமுடையதா என்பதை இரு நூல்களும் ஒரே வகையில் கேட்கின்றன."
+    "gita_parallel_note_ta": "ஒரு முக்கிய குணம் இருந்தால் அல்லது இல்லாவிட்டால் மற்றவை அர்த்தமுடையதா என்பதை இரு நூல்களும் ஒரே வகையில் கேட்கின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 54,
@@ -1023,7 +1076,8 @@
     "gita_verse_translit": "ananyenaiva yogena māṁ dhyāyanta upāsate",
     "gita_verse_en": "\"Those who worship Me, meditating with undivided, exclusive devotion.\"",
     "gita_parallel_note_en": "The parallel here is conceptual rather than literal: both texts hold up undivided, unwavering devotion — to a spouse in the Kural, to the Divine in the Gita — as the highest form of steadfastness a person can embody.",
-    "gita_parallel_note_ta": "பிரிக்க முடியாத உறுதியான பற்றுதலே உயர்ந்த குணம் என்பதை இரு நூல்களும் — வெவ்வேறு சூழலில் — ஏற்கின்றன."
+    "gita_parallel_note_ta": "பிரிக்க முடியாத உறுதியான பற்றுதலே உயர்ந்த குணம் என்பதை இரு நூல்களும் — வெவ்வேறு சூழலில் — ஏற்கின்றன.",
+    "gita_match_strength": "thematic"
   },
   {
     "id": 55,
@@ -1042,7 +1096,8 @@
     "gita_verse_translit": "patraṁ puṣpaṁ phalaṁ toyaṁ yo me bhaktyā prayacchati",
     "gita_verse_en": "\"Whoever offers Me a leaf, a flower, a fruit, or water with devotion, I accept it.\"",
     "gita_parallel_note_en": "The resonance here is in the underlying principle rather than the specific object of devotion: both texts describe sincere, wholehearted devotion as carrying extraordinary power — the Gita toward the Divine, the Kural toward a devoted household life.",
-    "gita_parallel_note_ta": "உண்மையான பக்தியின் ஆற்றலை இரு நூல்களும் — வெவ்வேறு சூழலில் — புகழ்கின்றன."
+    "gita_parallel_note_ta": "உண்மையான பக்தியின் ஆற்றலை இரு நூல்களும் — வெவ்வேறு சூழலில் — புகழ்கின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 56,
@@ -1061,7 +1116,8 @@
     "gita_verse_translit": "uddhared ātmanātmānam nātmānam avasādayet",
     "gita_verse_en": "\"One should elevate oneself by one's own self; one should not degrade oneself.\"",
     "gita_parallel_note_en": "Both texts locate true guardianship within the self — self-respect, self-restraint, and self-care are treated as the real safeguard of one's worth, not external protection.",
-    "gita_parallel_note_ta": "தன்னைக் காப்பதே உண்மையான காவல் என்பதை இரு நூல்களும் வலியுறுத்துகின்றன."
+    "gita_parallel_note_ta": "தன்னைக் காப்பதே உண்மையான காவல் என்பதை இரு நூல்களும் வலியுறுத்துகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 57,
@@ -1080,7 +1136,8 @@
     "gita_verse_translit": "uddhared ātmanātmānam",
     "gita_verse_en": "\"One should elevate oneself by one's own self.\"",
     "gita_parallel_note_en": "Both texts dismiss external constraint in favor of internal self-mastery as the real form of protection or discipline — the guard that matters is the one a person keeps over themselves.",
-    "gita_parallel_note_ta": "வெளியிலிருந்து அல்ல, தன்னகத்திலிருந்தே உண்மையான காவல் வர வேண்டும் என்பதை இரு நூல்களும் கூறுகின்றன."
+    "gita_parallel_note_ta": "வெளியிலிருந்து அல்ல, தன்னகத்திலிருந்தே உண்மையான காவல் வர வேண்டும் என்பதை இரு நூல்களும் கூறுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 58,
@@ -1099,7 +1156,8 @@
     "gita_verse_translit": "kṣipraṁ bhavati dharmātmā",
     "gita_verse_en": "\"Quickly does one become righteous [through steadfast devotion].\"",
     "gita_parallel_note_en": "Both texts describe steadfast, unwavering commitment as the very thing that earns true honor or righteousness — not incidental virtue, but its direct and reliable cause.",
-    "gita_parallel_note_ta": "உறுதியான பற்றுதலே மதிப்பையும் அறத்தையும் தரும் என்பதை இரு நூல்களும் கூறுகின்றன."
+    "gita_parallel_note_ta": "உறுதியான பற்றுதலே மதிப்பையும் அறத்தையும் தரும் என்பதை இரு நூல்களும் கூறுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 59,
@@ -1118,7 +1176,8 @@
     "gita_verse_translit": "bhayād raṇād uparataṁ maṁsyante tvāṁ mahā-rathāḥ",
     "gita_verse_en": "\"The great warriors will think you withdrew from battle out of fear [and your honor will suffer].\"",
     "gita_parallel_note_en": "Both texts link personal dignity and the ability to stand tall before others to the fulfillment of one's proper role — honor, in both, is something that must be actively upheld, not assumed.",
-    "gita_parallel_note_ta": "மதிப்புடன் நிமிர்ந்து நிற்பதற்குத் தன் கடமையை முழுமையாக நிறைவேற்றவேண்டும் என்பதை இரு நூல்களும் காட்டுகின்றன."
+    "gita_parallel_note_ta": "மதிப்புடன் நிமிர்ந்து நிற்பதற்குத் தன் கடமையை முழுமையாக நிறைவேற்றவேண்டும் என்பதை இரு நூல்களும் காட்டுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 60,
@@ -1137,7 +1196,8 @@
     "gita_verse_translit": "saha-yajñāḥ prajāḥ sṛṣṭvā purovāca prajāpatiḥ",
     "gita_verse_en": "\"Having created humankind together with sacrifice, the Creator said: through this shall you prosper.\"",
     "gita_parallel_note_en": "Both texts close their treatment of household life by linking it to progeny and continuity — a virtuous household, in each tradition, is understood to flourish forward through the generations it raises.",
-    "gita_parallel_note_ta": "நல்ல மக்களைப் பெறுவதே இல்வாழ்க்கையின் சிறந்த பயன் என்பதை இரு நூல்களும் முடிவாகக் கூறுகின்றன."
+    "gita_parallel_note_ta": "நல்ல மக்களைப் பெறுவதே இல்வாழ்க்கையின் சிறந்த பயன் என்பதை இரு நூல்களும் முடிவாகக் கூறுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 61,
@@ -1156,7 +1216,8 @@
     "gita_verse_translit": "saha-yajñāḥ prajāḥ sṛṣṭvā",
     "gita_verse_en": "\"Having created humankind together with sacrifice [for mutual flourishing].\"",
     "gita_parallel_note_en": "Both texts treat children not as incidental but as one of life's most significant gains — the Gita ties creation itself to the purpose of flourishing through progeny.",
-    "gita_parallel_note_ta": "மக்களைப் பெறுவதை வாழ்வின் மிக முக்கியமான பேறாக இரு நூல்களும் காண்கின்றன."
+    "gita_parallel_note_ta": "மக்களைப் பெறுவதை வாழ்வின் மிக முக்கியமான பேறாக இரு நூல்களும் காண்கின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 62,
@@ -1175,7 +1236,8 @@
     "gita_verse_translit": "śucīnāṁ śrīmatāṁ gehe yoga-bhraṣṭo'bhijāyate",
     "gita_verse_en": "\"One who has fallen from yoga is born into a home of the pure and prosperous.\"",
     "gita_parallel_note_en": "Both texts connect the quality of one's household and lineage to protection and merit carried across lifetimes — good birth and good offspring both function as spiritual safeguards.",
-    "gita_parallel_note_ta": "நல்ல வழித்தோன்றல்களும் நல்ல வீடும் பிறவிதோறும் பாதுகாப்பாக அமையும் என்பதை இரு நூல்களும் காட்டுகின்றன."
+    "gita_parallel_note_ta": "நல்ல வழித்தோன்றல்களும் நல்ல வீடும் பிறவிதோறும் பாதுகாப்பாக அமையும் என்பதை இரு நூல்களும் காட்டுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 63,
@@ -1194,7 +1256,8 @@
     "gita_verse_translit": "karmaṇy evādhikāras te mā phaleṣu kadācana",
     "gita_verse_en": "\"You have a right to your actions alone, never to their fruits.\"",
     "gita_parallel_note_en": "Both texts separate what one is given (children, as a gift or relationship) from what must be individually earned (material wealth, through one's own karma) — each person's fruits remain their own.",
-    "gita_parallel_note_ta": "ஒவ்வொருவரும் தத்தம் வினையால் மட்டுமே செல்வத்தை அடைவர் என்பதை இரு நூல்களும் ஒத்துக் கூறுகின்றன."
+    "gita_parallel_note_ta": "ஒவ்வொருவரும் தத்தம் வினையால் மட்டுமே செல்வத்தை அடைவர் என்பதை இரு நூல்களும் ஒத்துக் கூறுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 64,
@@ -1213,7 +1276,8 @@
     "gita_verse_translit": "patraṁ puṣpaṁ phalaṁ toyaṁ yo me bhaktyā prayacchati",
     "gita_verse_en": "\"Whoever offers Me a leaf, a flower, a fruit, or water with devotion, I accept it.\"",
     "gita_parallel_note_en": "Both texts find that the value of something humble is transformed entirely by the love behind it — ordinary porridge or a simple leaf, made precious not by what it is but by who offers it.",
-    "gita_parallel_note_ta": "எளிய பொருளும் அன்பினால் மேன்மையடையும் என்ற கருத்தை இரு நூல்களும் பகிர்கின்றன."
+    "gita_parallel_note_ta": "எளிய பொருளும் அன்பினால் மேன்மையடையும் என்ற கருத்தை இரு நூல்களும் பகிர்கின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 65,
@@ -1232,7 +1296,8 @@
     "gita_verse_translit": "santuṣṭaḥ satataṁ yogī yatātmā dṛḍha-niścayaḥ",
     "gita_verse_en": "\"The yogi who is ever content, self-controlled, and firm in resolve [is dear to Me].\"",
     "gita_parallel_note_en": "The connection here is loose rather than direct: both texts describe a state of simple, embodied contentment — the Kural through a parent's sensory joy, the Gita through the devotee's settled inner peace.",
-    "gita_parallel_note_ta": "எளிய, அன்பான இன்பநிலையை இரு நூல்களும் — வெவ்வேறு சூழலில் — விவரிக்கின்றன."
+    "gita_parallel_note_ta": "எளிய, அன்பான இன்பநிலையை இரு நூல்களும் — வெவ்வேறு சூழலில் — விவரிக்கின்றன.",
+    "gita_match_strength": "thematic"
   },
   {
     "id": 66,
@@ -1251,7 +1316,8 @@
     "gita_verse_translit": "sukham ātyantikaṁ yat tad buddhi-grāhyam atīndriyam",
     "gita_verse_en": "\"That boundless joy which is grasped by the higher intellect, beyond the senses.\"",
     "gita_parallel_note_en": "A loose thematic echo: both texts describe a joy so complete that it eclipses conventional pleasures — sensory delight (music) in the Kural's case, and even sense-based experience itself in the Gita's.",
-    "gita_parallel_note_ta": "சாதாரண இன்பங்களைத் தாண்டிய ஆழ்ந்த இன்பத்தை இரு நூல்களும் விவரிக்கின்றன."
+    "gita_parallel_note_ta": "சாதாரண இன்பங்களைத் தாண்டிய ஆழ்ந்த இன்பத்தை இரு நூல்களும் விவரிக்கின்றன.",
+    "gita_match_strength": "thematic"
   },
   {
     "id": 67,
@@ -1270,7 +1336,8 @@
     "gita_verse_translit": "vidyā-vinaya-sampanne",
     "gita_verse_en": "\"[The wise regard with equal vision] one accomplished in knowledge and humility.\"",
     "gita_parallel_note_en": "Both texts esteem the cultivation of true accomplishment through guidance and education as the highest gift one generation can give the next.",
-    "gita_parallel_note_ta": "நல்ல வளர்ப்பும் கல்வியும் ஒரு தலைமுறை மற்றொன்றுக்குத் தரும் சிறந்த பரிசு என்பதை இரு நூல்களும் காட்டுகின்றன."
+    "gita_parallel_note_ta": "நல்ல வளர்ப்பும் கல்வியும் ஒரு தலைமுறை மற்றொன்றுக்குத் தரும் சிறந்த பரிசு என்பதை இரு நூல்களும் காட்டுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 68,
@@ -1289,7 +1356,8 @@
     "gita_verse_translit": "na hi jñānena sadṛśaṁ pavitram iha vidyate",
     "gita_verse_en": "\"Nothing in this world purifies like knowledge.\"",
     "gita_parallel_note_en": "Both texts hold wisdom as a good so universally valuable that its benefit extends beyond the individual who possesses it — the Gita to purification of the self, the Kural to delight shared by all who witness it.",
-    "gita_parallel_note_ta": "அறிவின் மதிப்பு தனிநபரையும் தாண்டி பரவும் என்பதை இரு நூல்களும் காட்டுகின்றன."
+    "gita_parallel_note_ta": "அறிவின் மதிப்பு தனிநபரையும் தாண்டி பரவும் என்பதை இரு நூல்களும் காட்டுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 69,
@@ -1308,7 +1376,8 @@
     "gita_verse_translit": "yadṛcchayā copapannaṁ svarga-dvāram apāvṛtam",
     "gita_verse_en": "\"Happy are those who find such opportunity unsought — it opens the gate to a higher state.\"",
     "gita_parallel_note_en": "The connection is thematic: both texts describe a joy that surpasses ordinary expectation, arising unexpectedly from witnessing genuine excellence realized.",
-    "gita_parallel_note_ta": "எதிர்பாராத மகிழ்ச்சியை, சிறந்த சாதனையின் மூலம் அடைவதை இரு நூல்களும் விவரிக்கின்றன."
+    "gita_parallel_note_ta": "எதிர்பாராத மகிழ்ச்சியை, சிறந்த சாதனையின் மூலம் அடைவதை இரு நூல்களும் விவரிக்கின்றன.",
+    "gita_match_strength": "thematic"
   },
   {
     "id": 70,
@@ -1327,7 +1396,8 @@
     "gita_verse_translit": "utsādyante jāti-dharmāḥ kula-dharmāś ca śāśvatāḥ",
     "gita_verse_en": "\"The eternal family duties and traditions are destroyed [when descendants act wrongly].\"",
     "gita_parallel_note_en": "Both texts recognize the same reciprocal truth from opposite directions — the Gita warns how a family's honor is lost through descendants' wrongdoing, while the Kural celebrates how it is won through a son's excellence.",
-    "gita_parallel_note_ta": "வழித்தோன்றல்களின் நடத்தையே குடும்பத்தின் பெருமையையும் இழிவையும் தீர்மானிக்கும் என்பதை இரு நூல்களும் — எதிரெதிர் கோணங்களில் — காட்டுகின்றன."
+    "gita_parallel_note_ta": "வழித்தோன்றல்களின் நடத்தையே குடும்பத்தின் பெருமையையும் இழிவையும் தீர்மானிக்கும் என்பதை இரு நூல்களும் — எதிரெதிர் கோணங்களில் — காட்டுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 71,
@@ -1346,7 +1416,8 @@
     "gita_verse_translit": "bhaktyā mām abhijānāti",
     "gita_verse_en": "\"Through devotion alone, one truly knows Me.\"",
     "gita_parallel_note_en": "Both texts describe love or devotion as something that cannot be concealed by will alone — it reveals itself, whether through tears or through genuine knowing.",
-    "gita_parallel_note_ta": "அன்பை மறைக்க முடியாது என்ற உண்மையை இரு நூல்களும் வெவ்வேறு வகையில் காட்டுகின்றன."
+    "gita_parallel_note_ta": "அன்பை மறைக்க முடியாது என்ற உண்மையை இரு நூல்களும் வெவ்வேறு வகையில் காட்டுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 72,
@@ -1365,7 +1436,8 @@
     "gita_verse_translit": "sarva-bhūta-stham ātmānaṁ sarva-bhūtāni cātmani",
     "gita_verse_en": "\"One who sees the self in all beings, and all beings in the self.\"",
     "gita_parallel_note_en": "Both texts describe love as dissolving the boundary of self-ownership — the loving person no longer holds themselves as separate property, but as belonging to, or one with, others.",
-    "gita_parallel_note_ta": "அன்பு \"தான்\" என்ற எல்லையை உடைத்து பிறருடன் இணைக்கும் என்பதை இரு நூல்களும் காட்டுகின்றன."
+    "gita_parallel_note_ta": "அன்பு \"தான்\" என்ற எல்லையை உடைத்து பிறருடன் இணைக்கும் என்பதை இரு நூல்களும் காட்டுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 73,
@@ -1384,7 +1456,8 @@
     "gita_verse_translit": "na jāyate mriyate vā kadācin",
     "gita_verse_en": "\"The soul is never born, nor does it ever die [it is eternal and inseparable from its nature].\"",
     "gita_parallel_note_en": "Both texts reach for the same image of inseparability — body and soul in the Kural, the eternal, unbreakable nature of the soul in the Gita — to express a bond that cannot be severed.",
-    "gita_parallel_note_ta": "பிரிக்கமுடியாத ஆழ்ந்த தொடர்பை விளக்க இரு நூல்களும் உயிர்-உடல் உவமையைப் பயன்படுத்துகின்றன."
+    "gita_parallel_note_ta": "பிரிக்கமுடியாத ஆழ்ந்த தொடர்பை விளக்க இரு நூல்களும் உயிர்-உடல் உவமையைப் பயன்படுத்துகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 74,
@@ -1403,7 +1476,8 @@
     "gita_verse_translit": "maitraḥ karuṇa eva ca",
     "gita_verse_en": "\"Friendly and compassionate [toward all beings].\"",
     "gita_parallel_note_en": "Both texts trace a progression from an inner quality of love or compassion to an outward excellence of relationship — friendship or friendliness as its natural, flowering result.",
-    "gita_parallel_note_ta": "அன்பிலிருந்து தொடங்கி நட்பு எனும் சிறப்பாக மலரும் வளர்ச்சியை இரு நூல்களும் காட்டுகின்றன."
+    "gita_parallel_note_ta": "அன்பிலிருந்து தொடங்கி நட்பு எனும் சிறப்பாக மலரும் வளர்ச்சியை இரு நூல்களும் காட்டுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 75,
@@ -1422,7 +1496,8 @@
     "gita_verse_translit": "jñātvā māṁ śāntim ṛcchati",
     "gita_verse_en": "\"Knowing Me, one attains peace [and true happiness].\"",
     "gita_parallel_note_en": "Both texts locate genuine, lasting happiness not in circumstance but in a settled inner relationship — love in the Kural, knowledge of the Divine in the Gita.",
-    "gita_parallel_note_ta": "நிலையான இன்பம் உள்ளார்ந்த ஒரு உறவிலிருந்தே வரும் என்பதை இரு நூல்களும் காட்டுகின்றன."
+    "gita_parallel_note_ta": "நிலையான இன்பம் உள்ளார்ந்த ஒரு உறவிலிருந்தே வரும் என்பதை இரு நூல்களும் காட்டுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 76,
@@ -1441,7 +1516,8 @@
     "gita_verse_translit": "dharmyād dhi yuddhāc chreyo'nyat kṣatriyasya na vidyate",
     "gita_verse_en": "\"There exists nothing better for a warrior than righteous battle.\"",
     "gita_parallel_note_en": "Both texts refuse to separate love or virtue from courageous action — the Gita frames righteous battle itself as an expression of dharma, just as the Kural insists love underlies valor as much as virtue.",
-    "gita_parallel_note_ta": "அன்பும் வீரமும் தனித்தனியல்ல, ஒன்றையொன்று சார்ந்தவை என்பதை இரு நூல்களும் காட்டுகின்றன."
+    "gita_parallel_note_ta": "அன்பும் வீரமும் தனித்தனியல்ல, ஒன்றையொன்று சார்ந்தவை என்பதை இரு நூல்களும் காட்டுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 77,
@@ -1460,7 +1536,8 @@
     "gita_verse_translit": "adroha... dayā bhūteṣv",
     "gita_verse_en": "\"Non-malice... compassion toward all beings [are marks of divine nature].\"",
     "gita_parallel_note_en": "Both texts insist that virtue without love or compassion is hollow or self-defeating — the Gita lists compassion as inseparable from a truly virtuous nature, just as the Kural warns that virtue itself punishes the loveless.",
-    "gita_parallel_note_ta": "அன்பில்லாத அறம் உண்மையான அறமாகாது என்பதை இரு நூல்களும் எச்சரிக்கின்றன."
+    "gita_parallel_note_ta": "அன்பில்லாத அறம் உண்மையான அறமாகாது என்பதை இரு நூல்களும் எச்சரிக்கின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 78,
@@ -1479,7 +1556,8 @@
     "gita_verse_translit": "aśraddhayā hutaṁ dattaṁ... asad ity ucyate",
     "gita_verse_en": "\"Whatever is offered or given without faith is called 'asat' — without true being or worth.\"",
     "gita_parallel_note_en": "Both texts describe outward form without the essential inner quality — love, or faith — as ultimately hollow, a lifeless appearance rather than genuine substance.",
-    "gita_parallel_note_ta": "உள்ளார்ந்த குணம் இல்லாத வெளித்தோற்றம் பொருளற்றது என்பதை இரு நூல்களும் காட்டுகின்றன."
+    "gita_parallel_note_ta": "உள்ளார்ந்த குணம் இல்லாத வெளித்தோற்றம் பொருளற்றது என்பதை இரு நூல்களும் காட்டுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 79,
@@ -1498,7 +1576,8 @@
     "gita_verse_translit": "karmendriyāṇi saṁyamya ya āste manasā smaran",
     "gita_verse_en": "\"One who restrains the organs of action but dwells in the mind on sense objects [deceives only themselves].\"",
     "gita_parallel_note_en": "Both texts distinguish outward form from inward substance — a body or restraint that lacks the essential inner quality (love, or genuine detachment) is judged hollow, regardless of outward appearance.",
-    "gita_parallel_note_ta": "வெளித்தோற்றமும் உள்ளார்ந்த உண்மையும் வேறுபட்டவை என்பதை இரு நூல்களும் வலியுறுத்துகின்றன."
+    "gita_parallel_note_ta": "வெளித்தோற்றமும் உள்ளார்ந்த உண்மையும் வேறுபட்டவை என்பதை இரு நூல்களும் வலியுறுத்துகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 80,
@@ -1517,7 +1596,8 @@
     "gita_verse_translit": "śraddhāmayo'yaṁ puruṣo yo yac-chraddhaḥ sa eva saḥ",
     "gita_verse_en": "\"A person is made of faith; as one's faith is, so indeed is the person.\"",
     "gita_parallel_note_en": "Both texts close on the same idea — that a person's true identity is defined by an inner quality (love, or faith), not by the physical body alone, which without that quality is empty form.",
-    "gita_parallel_note_ta": "ஒருவரின் உண்மையான இயல்பு உடலால் அல்ல, உள்ளார்ந்த குணத்தால் தீர்மானிக்கப்படும் என்பதை இரு நூல்களும் முடிவாகக் கூறுகின்றன."
+    "gita_parallel_note_ta": "ஒருவரின் உண்மையான இயல்பு உடலால் அல்ல, உள்ளார்ந்த குணத்தால் தீர்மானிக்கப்படும் என்பதை இரு நூல்களும் முடிவாகக் கூறுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 81,
@@ -1536,7 +1616,8 @@
     "gita_verse_translit": "yajña-śiṣṭāśinaḥ santo mucyante sarva-kilbiṣaiḥ",
     "gita_verse_en": "\"The righteous who eat what remains after sacrifice [sharing first] are freed from all sin.\"",
     "gita_parallel_note_en": "Both texts locate the true purpose of household resources not in self-consumption but in sharing — the Gita frames this as freedom from sin, the Kural as the entire point of maintaining a home.",
-    "gita_parallel_note_ta": "இல்வாழ்க்கையின் சேமிப்பின் நோக்கமே பகிர்ந்தளிப்பதுதான் என்பதை இரு நூல்களும் காட்டுகின்றன."
+    "gita_parallel_note_ta": "இல்வாழ்க்கையின் சேமிப்பின் நோக்கமே பகிர்ந்தளிப்பதுதான் என்பதை இரு நூல்களும் காட்டுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 82,
@@ -1555,7 +1636,8 @@
     "gita_verse_translit": "bhuñjate te tv aghaṁ pāpā ye pacanty ātma-kāraṇāt",
     "gita_verse_en": "\"Those who cook only for themselves eat sin alone.\"",
     "gita_parallel_note_en": "A close, direct parallel — both texts condemn eating in isolation while others go without, regardless of how valuable the food itself might be.",
-    "gita_parallel_note_ta": "தனியே உண்பதை இரு நூல்களும் — உணவின் மதிப்பு எதுவாயினும் — கண்டிக்கின்றன."
+    "gita_parallel_note_ta": "தனியே உண்பதை இரு நூல்களும் — உணவின் மதிப்பு எதுவாயினும் — கண்டிக்கின்றன.",
+    "gita_match_strength": "direct"
   },
   {
     "id": 83,
@@ -1574,7 +1656,8 @@
     "gita_verse_translit": "yoga-kṣemaṁ vahāmyaham",
     "gita_verse_en": "\"For those exclusively devoted to Me, I carry what they lack and preserve what they have.\"",
     "gita_parallel_note_en": "Both texts offer the same assurance — consistent generosity or devotion is met with an unfailing provision that guards against ruin.",
-    "gita_parallel_note_ta": "தொடர்ந்த நல்லொழுக்கத்திற்குப் பாதுகாப்பான வாழ்வு உறுதி என்பதை இரு நூல்களும் உறுதியளிக்கின்றன."
+    "gita_parallel_note_ta": "தொடர்ந்த நல்லொழுக்கத்திற்குப் பாதுகாப்பான வாழ்வு உறுதி என்பதை இரு நூல்களும் உறுதியளிக்கின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 84,
@@ -1593,7 +1676,8 @@
     "gita_verse_translit": "ye yathā māṁ prapadyante tāṁs tathaiva bhajāmyaham",
     "gita_verse_en": "\"As people approach Me, so do I reward them accordingly.\"",
     "gita_parallel_note_en": "Both texts describe a reciprocal principle — warmth and genuine welcome offered outward returns as grace or fortune, in proportion to how it is given.",
-    "gita_parallel_note_ta": "அன்புடன் வழங்குவது அதே அளவு திரும்பப் பெறப்படும் என்ற பரஸ்பர விதியை இரு நூல்களும் காட்டுகின்றன."
+    "gita_parallel_note_ta": "அன்புடன் வழங்குவது அதே அளவு திரும்பப் பெறப்படும் என்ற பரஸ்பர விதியை இரு நூல்களும் காட்டுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 85,
@@ -1612,7 +1696,8 @@
     "gita_verse_translit": "teṣāṁ nityābhiyuktānāṁ yoga-kṣemaṁ vahāmyaham",
     "gita_verse_en": "\"For those constantly devoted, I personally carry what they lack and preserve what they have.\"",
     "gita_parallel_note_en": "Both texts suggest that consistent generosity is met with a kind of effortless, almost providential abundance — provision beyond what ordinary effort would produce.",
-    "gita_parallel_note_ta": "தொடர்ந்த பகிர்தல் தன்னிச்சையான வளத்தைத் தரும் என்பதை இரு நூல்களும் காட்டுகின்றன."
+    "gita_parallel_note_ta": "தொடர்ந்த பகிர்தல் தன்னிச்சையான வளத்தைத் தரும் என்பதை இரு நூல்களும் காட்டுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 86,
@@ -1631,7 +1716,8 @@
     "gita_verse_translit": "devān bhāvayatānena te devā bhāvayantu vaḥ",
     "gita_verse_en": "\"Nourish the gods with this, and may the gods in turn nourish you.\"",
     "gita_parallel_note_en": "Both texts describe hospitality as part of a reciprocal exchange that extends beyond the human world — care shown here is met with care from the celestial realm.",
-    "gita_parallel_note_ta": "விருந்தோம்பலின் பயன் வானுலகத்தாருடன் தொடர்பு கொள்ளும் என்ற கருத்தை இரு நூல்களும் பகிர்கின்றன."
+    "gita_parallel_note_ta": "விருந்தோம்பலின் பயன் வானுலகத்தாருடன் தொடர்பு கொள்ளும் என்ற கருத்தை இரு நூல்களும் பகிர்கின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 87,
@@ -1650,7 +1736,8 @@
     "gita_verse_translit": "yajñārthāt karmaṇo'nyatra loko'yaṁ karma-bandhanaḥ",
     "gita_verse_en": "\"Action performed for the sake of sacrifice does not bind; all other action binds this world.\"",
     "gita_parallel_note_en": "Both texts treat sacrifice (yajna) as a measure of genuine spiritual merit — the Kural redefines that measure entirely in terms of hospitality shown to a guest.",
-    "gita_parallel_note_ta": "வேள்வியின் மதிப்பை விருந்தோம்பலின் அளவால் அளக்கலாம் என்பதை இக்குறள் காட்ட, கீதை வேள்வியின் பொது மதிப்பை உணர்த்துகிறது."
+    "gita_parallel_note_ta": "வேள்வியின் மதிப்பை விருந்தோம்பலின் அளவால் அளக்கலாம் என்பதை இக்குறள் காட்ட, கீதை வேள்வியின் பொது மதிப்பை உணர்த்துகிறது.",
+    "gita_match_strength": "close"
   },
   {
     "id": 88,
@@ -1669,7 +1756,8 @@
     "gita_verse_translit": "idam adya mayā labdham imaṁ prāpsye manoratham",
     "gita_verse_en": "\"This I have gained today, and this desire I shall next fulfill\" [the endless, hollow calculation of the greedy].",
     "gita_parallel_note_en": "Both texts describe the same hollow outcome of pure accumulation without generosity — endless hoarding that ultimately yields a sense of having nothing at all.",
-    "gita_parallel_note_ta": "பகிராமல் குவிக்கும் செல்வம் இறுதியில் வெறுமையையே தரும் என்பதை இரு நூல்களும் காட்டுகின்றன."
+    "gita_parallel_note_ta": "பகிராமல் குவிக்கும் செல்வம் இறுதியில் வெறுமையையே தரும் என்பதை இரு நூல்களும் காட்டுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 89,
@@ -1688,7 +1776,8 @@
     "gita_verse_translit": "āḍhyo'bhijanavān asmi ko'nyo'sti sadṛśo mayā",
     "gita_verse_en": "\"I am wealthy and well-born; who else is equal to me?\" [the deluded pride of the miser].",
     "gita_parallel_note_en": "Both texts locate a form of poverty within apparent wealth itself — the Gita in deluded pride, the Kural in the folly of withholding generosity despite having means.",
-    "gita_parallel_note_ta": "செல்வம் இருந்தும் மனத்தில் ஒரு வகை வறுமை நிலவலாம் என்பதை இரு நூல்களும் காட்டுகின்றன."
+    "gita_parallel_note_ta": "செல்வம் இருந்தும் மனத்தில் ஒரு வகை வறுமை நிலவலாம் என்பதை இரு நூல்களும் காட்டுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 90,
@@ -1707,7 +1796,8 @@
     "gita_verse_translit": "anudvega-karaṁ vākyaṁ satyaṁ priya-hitaṁ ca yat",
     "gita_verse_en": "\"Speech that causes no distress, that is truthful, pleasant, and beneficial [is called austerity of speech].\"",
     "gita_parallel_note_en": "Both texts close on the same delicate insight — that manner and expression matter as much as the act itself, and that causing distress through one's face or words undoes the good of an otherwise kind deed.",
-    "gita_parallel_note_ta": "செயலைவிட, அணுகுமுறையும் முக பாவனையும் முக்கியம் என்பதை இரு நூல்களும் முடிவாக வலியுறுத்துகின்றன."
+    "gita_parallel_note_ta": "செயலைவிட, அணுகுமுறையும் முக பாவனையும் முக்கியம் என்பதை இரு நூல்களும் முடிவாக வலியுறுத்துகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 91,
@@ -1726,7 +1816,8 @@
     "gita_verse_translit": "anudvega-karaṁ vākyaṁ satyaṁ priya-hitaṁ ca yat",
     "gita_verse_en": "\"Speech that causes no distress, that is truthful, pleasant, and beneficial — this is called austerity of speech.\"",
     "gita_parallel_note_en": "A near-identical definition in both texts — pleasant speech is not mere flattery, but truthful, loving words free of hidden motive.",
-    "gita_parallel_note_ta": "இனிய சொல் என்பது வஞ்சனையற்ற, உண்மையான, அன்புடைய சொல் என்ற வரையறையை இரு நூல்களும் ஒரே வகையில் தருகின்றன."
+    "gita_parallel_note_ta": "இனிய சொல் என்பது வஞ்சனையற்ற, உண்மையான, அன்புடைய சொல் என்ற வரையறையை இரு நூல்களும் ஒரே வகையில் தருகின்றன.",
+    "gita_match_strength": "direct"
   },
   {
     "id": 92,
@@ -1745,7 +1836,8 @@
     "gita_verse_translit": "dātavyam iti yad dānaṁ dīyate'nupakāriṇe",
     "gita_verse_en": "\"That gift given as a duty, without expectation of return, at the right time and place, to a worthy person — is sattvic charity.\"",
     "gita_parallel_note_en": "Both texts emphasize the manner of giving over the substance given — the Gita specifies the right spirit of charity, the Kural elevates warm speech above even generous material giving.",
-    "gita_parallel_note_ta": "கொடுக்கும் முறையே கொடுக்கும் பொருளைவிட முக்கியம் என்பதை இரு நூல்களும் காட்டுகின்றன."
+    "gita_parallel_note_ta": "கொடுக்கும் முறையே கொடுக்கும் பொருளைவிட முக்கியம் என்பதை இரு நூல்களும் காட்டுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 93,
@@ -1764,7 +1856,8 @@
     "gita_verse_translit": "śārīraṁ... vāṅ-mayaṁ... mānasaṁ tapa ucyate",
     "gita_verse_en": "\"Austerity of body, speech, and mind, [performed together in purity], is complete.\"",
     "gita_parallel_note_en": "Both texts insist that outward expression, speech, and inner sincerity must align together — the Gita frames this as the threefold discipline of body, word, and mind.",
-    "gita_parallel_note_ta": "முகமும், சொல்லும், உள்ளமும் ஒன்றிணைந்தே உண்மையான நன்னடத்தை உருவாகும் என்பதை இரு நூல்களும் காட்டுகின்றன."
+    "gita_parallel_note_ta": "முகமும், சொல்லும், உள்ளமும் ஒன்றிணைந்தே உண்மையான நன்னடத்தை உருவாகும் என்பதை இரு நூல்களும் காட்டுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 94,
@@ -1783,7 +1876,8 @@
     "gita_verse_translit": "yoga-kṣemaṁ vahāmyaham",
     "gita_verse_en": "\"I carry what they lack and preserve what they have [for those devoted to Me].\"",
     "gita_parallel_note_en": "Both texts offer the same kind of assurance — a consistently good quality (devotion, or pleasant speech) is met with protection from want.",
-    "gita_parallel_note_ta": "நல்லியல்பை தொடர்ந்து கடைப்பிடிப்பவர்க்கு வறுமை நேராது என்ற உறுதியை இரு நூல்களும் தருகின்றன."
+    "gita_parallel_note_ta": "நல்லியல்பை தொடர்ந்து கடைப்பிடிப்பவர்க்கு வறுமை நேராது என்ற உறுதியை இரு நூல்களும் தருகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 95,
@@ -1802,7 +1896,8 @@
     "gita_verse_translit": "amānitvam adambhitvam",
     "gita_verse_en": "\"Humility, freedom from pretension [are the marks of true knowledge].\"",
     "gita_parallel_note_en": "Both texts elevate humility to the status of the highest personal quality — an inner ornament that outranks any outward adornment.",
-    "gita_parallel_note_ta": "பணிவே சிறந்த அணிகலன் என்பதை இரு நூல்களும் உயர்வாகக் கருதுகின்றன."
+    "gita_parallel_note_ta": "பணிவே சிறந்த அணிகலன் என்பதை இரு நூல்களும் உயர்வாகக் கருதுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 96,
@@ -1821,7 +1916,8 @@
     "gita_verse_translit": "daivī sampad vimokṣāya nibandhāyāsurī matā",
     "gita_verse_en": "\"Divine qualities lead to liberation; demonic qualities lead to bondage.\"",
     "gita_parallel_note_en": "Both texts describe a cumulative moral effect — cultivating good speech and qualities steadily tips the balance toward virtue and away from wrongdoing.",
-    "gita_parallel_note_ta": "நல்ல பழக்கங்களைத் தொடர்ந்து வளர்த்தால் தீமை குறையும் என்பதை இரு நூல்களும் காட்டுகின்றன."
+    "gita_parallel_note_ta": "நல்ல பழக்கங்களைத் தொடர்ந்து வளர்த்தால் தீமை குறையும் என்பதை இரு நூல்களும் காட்டுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 97,
@@ -1840,7 +1936,8 @@
     "gita_verse_translit": "svādhyāyābhyasanaṁ caiva vāṅ-mayaṁ tapa ucyate",
     "gita_verse_en": "\"Regular study and disciplined speech — this too is called austerity of speech.\"",
     "gita_parallel_note_en": "Both texts treat disciplined, consistent good speech as something that actively cultivates benefit over time, not merely avoids harm.",
-    "gita_parallel_note_ta": "தொடர்ந்த நல்ல சொல் பயிற்சி நிலையான நன்மையைத் தரும் என்பதை இரு நூல்களும் காட்டுகின்றன."
+    "gita_parallel_note_ta": "தொடர்ந்த நல்ல சொல் பயிற்சி நிலையான நன்மையைத் தரும் என்பதை இரு நூல்களும் காட்டுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 98,
@@ -1859,7 +1956,8 @@
     "gita_verse_translit": "śraddhayā parayā taptaṁ tapas tat tri-vidhaṁ naraiḥ",
     "gita_verse_en": "\"This threefold austerity, performed with supreme faith... [yields lasting fruit].\"",
     "gita_parallel_note_en": "Both texts describe how sincere, disciplined good speech carries benefit beyond the immediate moment — extending, in each tradition's framing, across this life and beyond.",
-    "gita_parallel_note_ta": "நல்ல சொல்லின் பயன் இம்மையையும் தாண்டி நீடிக்கும் என்பதை இரு நூல்களும் கூறுகின்றன."
+    "gita_parallel_note_ta": "நல்ல சொல்லின் பயன் இம்மையையும் தாண்டி நீடிக்கும் என்பதை இரு நூல்களும் கூறுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 99,
@@ -1878,7 +1976,8 @@
     "gita_verse_translit": "dambho darpo'bhimānaś ca krodhaḥ pāruṣyam eva ca",
     "gita_verse_en": "\"Hypocrisy, arrogance, conceit, anger, and harshness [mark those of demonic nature].\"",
     "gita_parallel_note_en": "Both texts single out harshness of speech as a needless, self-defeating choice — the Kural questions why anyone would choose it, the Gita lists it among the traits that mark a degraded nature.",
-    "gita_parallel_note_ta": "கடுஞ்சொல் தேவையற்றது, தவிர்க்கத்தக்கது என்பதை இரு நூல்களும் காட்டுகின்றன."
+    "gita_parallel_note_ta": "கடுஞ்சொல் தேவையற்றது, தவிர்க்கத்தக்கது என்பதை இரு நூல்களும் காட்டுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 100,
@@ -1897,7 +1996,8 @@
     "gita_verse_translit": "yat tad agre'mṛtopamaṁ pariṇāme viṣam iva",
     "gita_verse_en": "\"That pleasure which seems like nectar at first but turns to poison in the end [is called rajasic pleasure].\"",
     "gita_parallel_note_en": "Both texts use a taste-based image to warn against a choice that seems satisfying in the moment but proves the wrong one — the Kural's unripe fruit and the Gita's pleasure turning to poison both illustrate short-sighted preference.",
-    "gita_parallel_note_ta": "தற்காலிக இன்பத்தைத் தேர்ந்தெடுத்து நிலையான நன்மையை இழக்கும் தவற்றை இரு நூல்களும் எச்சரிக்கின்றன."
+    "gita_parallel_note_ta": "தற்காலிக இன்பத்தைத் தேர்ந்தெடுத்து நிலையான நன்மையை இழக்கும் தவற்றை இரு நூல்களும் எச்சரிக்கின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 101,
@@ -1916,7 +2016,8 @@
     "gita_verse_translit": "nirāśrayaḥ karma samārabhate",
     "gita_verse_en": "\"One who acts without dependence on external support or reward.\"",
     "gita_parallel_note_en": "Both texts elevate help given without prior obligation or expectation — such disinterested generosity is treated as beyond ordinary repayment.",
-    "gita_parallel_note_ta": "எந்த எதிர்பார்ப்புமின்றி வழங்கப்படும் உதவியின் மதிப்பு அளவிட முடியாதது என்பதை இரு நூல்களும் காட்டுகின்றன."
+    "gita_parallel_note_ta": "எந்த எதிர்பார்ப்புமின்றி வழங்கப்படும் உதவியின் மதிப்பு அளவிட முடியாதது என்பதை இரு நூல்களும் காட்டுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 102,
@@ -1935,7 +2036,8 @@
     "gita_verse_translit": "deśe kāle ca pātre ca... tad dānaṁ sāttvikaṁ smṛtam",
     "gita_verse_en": "\"Charity given at the right place, right time, to a worthy person — this is remembered as sattvic giving.\"",
     "gita_parallel_note_en": "Both texts single out timeliness as the factor that elevates a good deed above its material size — the same small gift, given at the right moment, carries outsized worth.",
-    "gita_parallel_note_ta": "சரியான நேரத்தில் செய்யப்படும் உதவியின் மதிப்பு அதன் அளவைத் தாண்டியது என்பதை இரு நூல்களும் காட்டுகின்றன."
+    "gita_parallel_note_ta": "சரியான நேரத்தில் செய்யப்படும் உதவியின் மதிப்பு அதன் அளவைத் தாண்டியது என்பதை இரு நூல்களும் காட்டுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 103,
@@ -1954,7 +2056,8 @@
     "gita_verse_translit": "adātavyam iti yad dānaṁ... apratyupakāriṇe",
     "gita_verse_en": "\"That gift given to one who cannot repay it — this too is sattvic giving.\"",
     "gita_parallel_note_en": "Both texts prize help given with no expectation of reciprocity as the highest, most genuine form of goodness — its value measured precisely by the absence of self-interest.",
-    "gita_parallel_note_ta": "எதிர்பார்ப்பின்றி வழங்கப்படும் உதவியே மிக உயர்ந்த நன்மை என்பதை இரு நூல்களும் வலியுறுத்துகின்றன."
+    "gita_parallel_note_ta": "எதிர்பார்ப்பின்றி வழங்கப்படும் உதவியே மிக உயர்ந்த நன்மை என்பதை இரு நூல்களும் வலியுறுத்துகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 104,
@@ -1973,7 +2076,8 @@
     "gita_verse_translit": "svalpam apy asya dharmasya trāyate mahato bhayāt",
     "gita_verse_en": "\"Even a little of this righteousness saves one from great fear.\"",
     "gita_parallel_note_en": "Both texts insist that even a small act of good carries disproportionate value — the ordinary scale of size does not apply to true goodness.",
-    "gita_parallel_note_ta": "சிறிய நன்மையும் பேரளவு மதிப்புடையது என்பதை இரு நூல்களும் காட்டுகின்றன."
+    "gita_parallel_note_ta": "சிறிய நன்மையும் பேரளவு மதிப்புடையது என்பதை இரு நூல்களும் காட்டுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 105,
@@ -1992,7 +2096,8 @@
     "gita_verse_translit": "deśe kāle ca pātre ca dānaṁ",
     "gita_verse_en": "\"Charity given... to a worthy person [is sattvic].\"",
     "gita_parallel_note_en": "Both texts hold that the worth of a good deed is inseparable from the worthiness of its recipient — the same act carries different weight depending on who receives it.",
-    "gita_parallel_note_ta": "உதவியின் மதிப்பு அதைப் பெறுபவரின் தகுதியைப் பொறுத்தது என்பதை இரு நூல்களும் காட்டுகின்றன."
+    "gita_parallel_note_ta": "உதவியின் மதிப்பு அதைப் பெறுபவரின் தகுதியைப் பொறுத்தது என்பதை இரு நூல்களும் காட்டுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 106,
@@ -2011,7 +2116,8 @@
     "gita_verse_translit": "ātmaupamyena sarvatra samaṁ paśyati yo'rjuna",
     "gita_verse_en": "\"One who sees the joys and sorrows of all beings as equal to their own [is considered the highest yogi].\"",
     "gita_parallel_note_en": "Both texts value bonds tested and proven through shared hardship — friendship earned through suffering together is treated as especially worth preserving.",
-    "gita_parallel_note_ta": "துன்பத்தில் கலந்துகொண்ட நட்பே மேலான, பாதுகாக்கத்தக்க பிணைப்பு என்பதை இரு நூல்களும் காட்டுகின்றன."
+    "gita_parallel_note_ta": "துன்பத்தில் கலந்துகொண்ட நட்பே மேலான, பாதுகாக்கத்தக்க பிணைப்பு என்பதை இரு நூல்களும் காட்டுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 107,
@@ -2030,7 +2136,8 @@
     "gita_verse_translit": "prāpya puṇya-kṛtāṁ lokān... janma tatra",
     "gita_verse_en": "\"Attaining the worlds of the righteous, one is reborn [carrying forward the merit accumulated across lifetimes].\"",
     "gita_parallel_note_en": "Both texts describe merit and bonds as persisting across successive lifetimes — a kindness or spiritual effort is never truly lost, but carries forward.",
-    "gita_parallel_note_ta": "நல்ல செயல்களும் நட்பும் பிறவிகளைத் தாண்டி நீடிக்கும் என்பதை இரு நூல்களும் காட்டுகின்றன."
+    "gita_parallel_note_ta": "நல்ல செயல்களும் நட்பும் பிறவிகளைத் தாண்டி நீடிக்கும் என்பதை இரு நூல்களும் காட்டுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 108,
@@ -2049,7 +2156,8 @@
     "gita_verse_translit": "adveṣṭā sarva-bhūtānāṁ",
     "gita_verse_en": "\"One who bears ill will toward no being [is dear to Me].\"",
     "gita_parallel_note_en": "Both texts pair two moral instructions — the Kural explicitly, the Gita implicitly — remembering good and releasing grievance, as companion practices of a mature heart.",
-    "gita_parallel_note_ta": "நன்மையை நினைவில் வைத்து, தீமையை மறப்பதே முதிர்ந்த மனநிலை என்பதை இரு நூல்களும் காட்டுகின்றன."
+    "gita_parallel_note_ta": "நன்மையை நினைவில் வைத்து, தீமையை மறப்பதே முதிர்ந்த மனநிலை என்பதை இரு நூல்களும் காட்டுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 109,
@@ -2068,7 +2176,8 @@
     "gita_verse_translit": "kṣamā dhṛtiḥ śaucam adroha",
     "gita_verse_en": "\"Forgiveness, steadiness, purity, freedom from malice [mark those of divine nature].\"",
     "gita_parallel_note_en": "Both texts hold forgiveness rooted in remembered good as a mark of true nobility — the capacity to let past kindness outweigh present injury.",
-    "gita_parallel_note_ta": "முன்பு பெற்ற நன்மையை நினைத்து மன்னிக்கும் தன்மையை இரு நூல்களும் உயர்வாகக் கருதுகின்றன."
+    "gita_parallel_note_ta": "முன்பு பெற்ற நன்மையை நினைத்து மன்னிக்கும் தன்மையை இரு நூல்களும் உயர்வாகக் கருதுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 110,
@@ -2087,7 +2196,8 @@
     "gita_verse_translit": "kṣipāmy ajasram aśubhān āsurīṣv eva yoniṣu",
     "gita_verse_en": "\"I cast the cruel and hateful perpetually into demonic wombs [from which they cannot easily be freed].\"",
     "gita_parallel_note_en": "Both texts reserve their sternest closing warning for the same offense — a fundamental betrayal of the moral order — with the Gita describing near-permanent consequence and the Kural declaring it beyond redemption.",
-    "gita_parallel_note_ta": "நன்றி மறத்தல் மிகக் கடுமையான தவறு என்று இரு நூல்களும் தங்கள் அதிகாரங்களின் முடிவில் உறுதியாக எச்சரிக்கின்றன."
+    "gita_parallel_note_ta": "நன்றி மறத்தல் மிகக் கடுமையான தவறு என்று இரு நூல்களும் தங்கள் அதிகாரங்களின் முடிவில் உறுதியாக எச்சரிக்கின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 111,
@@ -2106,7 +2216,8 @@
     "gita_verse_translit": "suhṛn-mitrāry-udāsīna-madhyastha-dveṣya-bandhuṣu, sādhuṣv api ca pāpeṣu sama-buddhir viśiṣyate",
     "gita_verse_en": "\"One who regards with equal mind well-wishers, friends, enemies, the neutral, the hateful, relatives, the righteous, and even sinners — that one excels.\"",
     "gita_parallel_note_en": "A striking, near word-for-word match — both texts define the highest virtue as precisely this: treating every category of person, friend or foe, with the exact same fairness.",
-    "gita_parallel_note_ta": "நண்பர், பகைவர், அயலார் என்று பாகுபாடின்றி சமமாக நடப்பதே உயர்ந்த அறம் என்பதை இரு நூல்களும் ஏறத்தாழ ஒரே சொற்களில் கூறுகின்றன."
+    "gita_parallel_note_ta": "நண்பர், பகைவர், அயலார் என்று பாகுபாடின்றி சமமாக நடப்பதே உயர்ந்த அறம் என்பதை இரு நூல்களும் ஏறத்தாழ ஒரே சொற்களில் கூறுகின்றன.",
+    "gita_match_strength": "direct"
   },
   {
     "id": 112,
@@ -2125,7 +2236,8 @@
     "gita_verse_translit": "nehābhikrama-nāśo'sti",
     "gita_verse_en": "\"In this path, effort is never lost or wasted.\"",
     "gita_parallel_note_en": "Both texts assure that good rooted in righteous conduct is durable, carrying forward its benefit rather than dissipating with time.",
-    "gita_parallel_note_ta": "நேர்மையிலிருந்து பெறப்படும் நன்மை அழியாது, நிலைக்கும் என்பதை இரு நூல்களும் உறுதிசெய்கின்றன."
+    "gita_parallel_note_ta": "நேர்மையிலிருந்து பெறப்படும் நன்மை அழியாது, நிலைக்கும் என்பதை இரு நூல்களும் உறுதிசெய்கின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 113,
@@ -2144,7 +2256,8 @@
     "gita_verse_translit": "karmaṇy evādhikāras te mā phaleṣu kadācana",
     "gita_verse_en": "\"You have a right to action alone, never to its fruits.\"",
     "gita_parallel_note_en": "Both texts insist that the rightness of the means matters more than the appeal of the result — a gain obtained unjustly is to be rejected regardless of how beneficial it seems.",
-    "gita_parallel_note_ta": "பயன் நல்லதாக இருந்தாலும், தவறான வழியில் பெறப்பட்ட ஆக்கத்தைத் தள்ளவேண்டும் என்பதை இரு நூல்களும் காட்டுகின்றன."
+    "gita_parallel_note_ta": "பயன் நல்லதாக இருந்தாலும், தவறான வழியில் பெறப்பட்ட ஆக்கத்தைத் தள்ளவேண்டும் என்பதை இரு நூல்களும் காட்டுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 114,
@@ -2163,7 +2276,8 @@
     "gita_verse_translit": "utsādyante jāti-dharmāḥ kula-dharmāś ca śāśvatāḥ",
     "gita_verse_en": "\"The eternal family duties and traditions are destroyed [through the wrongdoing of descendants].\"",
     "gita_parallel_note_en": "Both texts locate the true measure of a person's worth in what they leave behind through their descendants — legacy as the final, unbiased verdict on a life.",
-    "gita_parallel_note_ta": "ஒருவரின் தகுதி, அவர் வழியில் விட்டுச்செல்லும் வழித்தோன்றல்களால் தெரியவரும் என்பதை இரு நூல்களும் காட்டுகின்றன."
+    "gita_parallel_note_ta": "ஒருவரின் தகுதி, அவர் வழியில் விட்டுச்செல்லும் வழித்தோன்றல்களால் தெரியவரும் என்பதை இரு நூல்களும் காட்டுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 115,
@@ -2182,7 +2296,8 @@
     "gita_verse_translit": "sukha-duḥkhe same kṛtvā lābhālābhau jayājayau",
     "gita_verse_en": "\"Treating pleasure and pain, gain and loss, victory and defeat alike.\"",
     "gita_parallel_note_en": "An almost identical formulation in both texts — equanimity through gain and loss alike is named directly as the mark of the wise or virtuous person.",
-    "gita_parallel_note_ta": "ஆக்கத்திலும் கேட்டிலும் மனம் கோணாமல் இருப்பதே சான்றோரின் அழகு என்பதை இரு நூல்களும் ஏறத்தாழ ஒரே சொற்களில் கூறுகின்றன."
+    "gita_parallel_note_ta": "ஆக்கத்திலும் கேட்டிலும் மனம் கோணாமல் இருப்பதே சான்றோரின் அழகு என்பதை இரு நூல்களும் ஏறத்தாழ ஒரே சொற்களில் கூறுகின்றன.",
+    "gita_match_strength": "direct"
   },
   {
     "id": 116,
@@ -2201,7 +2316,8 @@
     "gita_verse_translit": "krodhād bhavati sammohaḥ... buddhi-nāśāt praṇaśyati",
     "gita_verse_en": "\"From anger comes delusion... from loss of intelligence, one is utterly ruined.\"",
     "gita_parallel_note_en": "Both texts trace ruin back to its earliest origin — a single deviating thought — rather than only the final wrongful act, warning that the danger begins the moment the mind first strays.",
-    "gita_parallel_note_ta": "அழிவு தொடங்குவது ஒரு தவறான எண்ணத்திலிருந்தே என்பதை இரு நூல்களும் எச்சரிக்கின்றன."
+    "gita_parallel_note_ta": "அழிவு தொடங்குவது ஒரு தவறான எண்ணத்திலிருந்தே என்பதை இரு நூல்களும் எச்சரிக்கின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 117,
@@ -2220,7 +2336,8 @@
     "gita_verse_translit": "yo na hṛṣyati na dveṣṭi na śocati na kāṅkṣati",
     "gita_verse_en": "\"One who neither rejoices nor hates, neither grieves nor desires [is dear to Me].\"",
     "gita_parallel_note_en": "Both texts describe how a person genuinely grounded in equanimity is unaffected, in true worth, by outward circumstance — poverty does not diminish their real standing.",
-    "gita_parallel_note_ta": "வெளித்தோற்ற நிலைமை, உள்ளார்ந்த மதிப்பைக் குறைக்காது என்பதை இரு நூல்களும் காட்டுகின்றன."
+    "gita_parallel_note_ta": "வெளித்தோற்ற நிலைமை, உள்ளார்ந்த மதிப்பைக் குறைக்காது என்பதை இரு நூல்களும் காட்டுகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 118,
@@ -2239,7 +2356,8 @@
     "gita_verse_translit": "sama-duḥkha-sukhaḥ svastha... sama-loṣṭrāśma-kāñcanaḥ",
     "gita_verse_en": "\"Equal in pleasure and pain, self-abiding, regarding a clod of earth, a stone, and gold as the same.\"",
     "gita_parallel_note_en": "Both texts reach for a physical image of perfect balance — the Kural's weighing scale and the Gita's equal regard for a stone and gold both express the same total, unwavering equipoise.",
-    "gita_parallel_note_ta": "எந்தப் பக்கமும் சாயாத முழுமையான சமநிலையை விளக்க இரு நூல்களும் உவமைகளைப் பயன்படுத்துகின்றன."
+    "gita_parallel_note_ta": "எந்தப் பக்கமும் சாயாத முழுமையான சமநிலையை விளக்க இரு நூல்களும் உவமைகளைப் பயன்படுத்துகின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 119,
@@ -2258,7 +2376,8 @@
     "gita_verse_translit": "karmendriyāṇi saṁyamya ya āste manasā smaran",
     "gita_verse_en": "\"One who restrains the organs of action but dwells in the mind on the objects of the senses is a hypocrite.\"",
     "gita_parallel_note_en": "Both texts insist that outward correctness alone is not enough — the Gita warns against restrained action masking an unrestrained mind, just as the Kural insists straight speech means nothing without a straight mind behind it.",
-    "gita_parallel_note_ta": "வெளித்தோற்ற நேர்மையைவிட உள்ளார்ந்த நேர்மையே முக்கியம் என்பதை இரு நூல்களும் எச்சரிக்கின்றன."
+    "gita_parallel_note_ta": "வெளித்தோற்ற நேர்மையைவிட உள்ளார்ந்த நேர்மையே முக்கியம் என்பதை இரு நூல்களும் எச்சரிக்கின்றன.",
+    "gita_match_strength": "close"
   },
   {
     "id": 120,
@@ -2277,6 +2396,7 @@
     "gita_verse_translit": "ātmaupamyena sarvatra samaṁ paśyati yo'rjuna, sukhaṁ vā yadi vā duḥkhaṁ sa yogī paramo mataḥ",
     "gita_verse_en": "\"One who, through the same measure as their own self, sees the joy and sorrow of all beings as equal — that one is regarded as the supreme yogi.\"",
     "gita_parallel_note_en": "Both texts close on the same principle applied to worldly dealing — treating another's interest exactly as one's own is named, in each tradition, as the very highest standard of conduct.",
-    "gita_parallel_note_ta": "பிறரின் நலனைத் தமதுபோலவே கருதுவதே உயர்ந்த நடத்தை என்பதை இரு நூல்களும் தங்கள் அதிகாரங்களின் முடிவில் உறுதிசெய்கின்றன."
+    "gita_parallel_note_ta": "பிறரின் நலனைத் தமதுபோலவே கருதுவதே உயர்ந்த நடத்தை என்பதை இரு நூல்களும் தங்கள் அதிகாரங்களின் முடிவில் உறுதிசெய்கின்றன.",
+    "gita_match_strength": "close"
   }
 ]

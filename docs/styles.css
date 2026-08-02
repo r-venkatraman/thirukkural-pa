@@ -28,6 +28,20 @@ body {
   color: #fff;
 }
 
+.brand h1 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.brand .tagline {
+  margin: 2px 0 0;
+  font-size: 12px;
+  opacity: 0.8;
+  font-style: italic;
+}
+
 .top-bar h1 {
   margin: 0;
   font-size: 22px;
@@ -110,6 +124,131 @@ main {
 
 .search-wrap {
   margin-bottom: 16px;
+}
+
+.gita-header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.gita-header-row h3 { margin: 0; }
+
+.match-badge {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+
+.match-badge.direct {
+  background: #FFF0D6;
+  color: #8A4B14;
+  border: 1px solid #E8C39E;
+}
+
+.match-badge.close {
+  background: var(--accent-light);
+  color: var(--accent);
+  border: 1px solid #B9DFD2;
+}
+
+.match-badge.thematic {
+  background: #F1EFE8;
+  color: #5F5E5A;
+  border: 1px solid #D3D1C7;
+}
+
+.stats-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.stat-pill {
+  flex: 1;
+  min-width: 78px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 10px 8px;
+  text-align: center;
+}
+
+.stat-pill .stat-num {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.stat-pill .stat-label {
+  display: block;
+  font-size: 10px;
+  color: var(--muted);
+  margin-top: 2px;
+}
+
+.highlights-group {
+  background: #FFF7EC;
+  border: 1px solid #E8C39E;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+.highlights-group summary {
+  display: flex;
+  align-items: center;
+  padding: 14px 16px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  color: #8A4B14;
+  list-style: none;
+}
+
+.highlights-group summary::-webkit-details-marker { display: none; }
+
+.highlights-group summary::before {
+  content: '\2728';
+  margin-right: 8px;
+  font-size: 13px;
+}
+
+.highlights-items {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 0 12px 12px;
+}
+
+.highlight-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-align: left;
+  background: #fff;
+  border: 1px solid #E8C39E;
+  border-radius: 10px;
+  padding: 10px 14px;
+  cursor: pointer;
+  font-family: 'Noto Sans Tamil', sans-serif;
+  font-size: 13px;
+  color: var(--ink);
+}
+
+.highlight-item .hl-num {
+  flex-shrink: 0;
+  background: #FFF0D6;
+  color: #8A4B14;
+  font-weight: 600;
+  font-size: 12px;
+  border-radius: 8px;
+  padding: 3px 7px;
 }
 
 .search-input {

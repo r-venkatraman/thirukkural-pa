@@ -1,7 +1,7 @@
 {
-  "name": "Thirukkural Daily",
-  "short_name": "Thirukkural",
-  "description": "One Thirukkural a day with Parimelazhagar's commentary",
+  "name": "Kuralum Geethayum",
+  "short_name": "Kural & Gita",
+  "description": "Daily Thirukkural with Parimelazhagar's commentary and Bhagavad Gita parallels",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
