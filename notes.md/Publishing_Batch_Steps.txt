@@ -8,11 +8,11 @@ Copy-Item -Path app\* -Destination docs -Recurse -Force
 
 3. Bump the cache version — open app/service-worker.js in VS Code, find: Note: Version V is incremental, hence be mindful while updating...
 
-const CACHE_NAME = 'thirukkural-v11';
+const CACHE_NAME = 'thirukkural-v12';
 
 Change to:
 
-const CACHE_NAME = 'thirukkural-v12';
+const CACHE_NAME = 'thirukkural-v13';
 
 Save, then re-sync just that file:
 
@@ -21,9 +21,9 @@ Copy-Item -Path app\service-worker.js -Destination docs\service-worker.js -Force
 4. Commit and push: (update the commit comment)
 
 git add .
-git commit -m "Add Adhikaram 2 (kurals 41-60)"
+git commit -m "Improvements, Search, Grouping"
 git push
 
 5. Verify live data:
 
-https://r-venkatraman.github.io/thirukkural-pa/data/kurals.json?v=12
+https://r-venkatraman.github.io/thirukkural-pa/data/kurals.json?v=13
