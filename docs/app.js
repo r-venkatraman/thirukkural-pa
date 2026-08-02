@@ -192,7 +192,9 @@ function renderList() {
     const text = node.querySelector('.list-item-text');
 
     num.textContent = k.id;
-    text.textContent = k.kural_ta.replace('\n', ' ');
+    text.textContent = currentLang === 'en'
+      ? k.translation_en
+      : k.kural_ta.replace('\n', ' ');
 
     btn.addEventListener('click', () => {
       detailFromList = true;
