@@ -108,81 +108,10 @@ main {
   display: block;
 }
 
-.search-wrap {
-  margin-bottom: 16px;
-}
-
-.search-input {
-  width: 100%;
-  padding: 12px 16px;
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  font-size: 15px;
-  font-family: 'Noto Sans Tamil', sans-serif;
-  background: var(--card);
-  color: var(--ink);
-}
-
-.search-input:focus {
-  outline: none;
-  border-color: var(--accent);
-}
-
 .kural-list {
   display: flex;
   flex-direction: column;
   gap: 10px;
-}
-
-.adhikaram-group {
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  overflow: hidden;
-}
-
-.adhikaram-group summary {
-  display: flex;
-  align-items: center;
-  padding: 14px 16px;
-  cursor: pointer;
-  font-family: 'Noto Sans Tamil', sans-serif;
-  font-weight: 600;
-  font-size: 15px;
-  color: var(--ink);
-  list-style: none;
-}
-
-.adhikaram-group-range {
-  margin-left: auto;
-  padding-left: 12px;
-}
-
-.adhikaram-group summary::-webkit-details-marker { display: none; }
-
-.adhikaram-group summary::before {
-  content: '\25B8';
-  color: var(--accent);
-  margin-right: 8px;
-  font-size: 12px;
-  transition: transform 0.15s;
-}
-
-.adhikaram-group[open] summary::before {
-  transform: rotate(90deg);
-}
-
-.adhikaram-group-range {
-  font-size: 12px;
-  font-weight: 400;
-  color: var(--muted);
-}
-
-.adhikaram-group-items {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  padding: 0 12px 12px;
 }
 
 .kural-list-item {

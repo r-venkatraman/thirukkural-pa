@@ -1,4 +1,4 @@
-const CACHE_NAME = 'thirukkural-v13';
+const CACHE_NAME = 'thirukkural-v12';
 const PRECACHE = [
   './',
   './index.html',

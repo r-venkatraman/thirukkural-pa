@@ -177,35 +177,114 @@ function renderKuralCard(kural, showBack) {
   });
 }
 
+function kuralListItemText(k) {
+  return currentLang === 'en'
+    ? (k.kural_transliteration ? k.kural_transliteration.replace('\n', ' ') : k.kural_ta.replace('\n', ' '))
+    : k.kural_ta.replace('\n', ' ');
+}
+
+function buildListItem(k) {
+  const tpl = document.getElementById('list-item-template');
+  const node = tpl.content.cloneNode(true);
+  const btn = node.querySelector('.kural-list-item');
+  const num = node.querySelector('.list-item-number');
+  const text = node.querySelector('.list-item-text');
+
+  num.textContent = k.id;
+  text.textContent = kuralListItemText(k);
+
+  btn.addEventListener('click', () => {
+    detailFromList = true;
+    currentView = 'detail-' + k.id;
+    renderKuralCard(k, true);
+  });
+
+  return node;
+}
+
+function matchesSearch(k, q) {
+  const hay = [
+    k.kural_ta, k.kural_transliteration, k.translation_en,
+    k.adhikaram_ta, k.adhikaram_en, String(k.id)
+  ].join(' ').toLowerCase();
+  return hay.includes(q);
+}
+
+function groupByAdhikaram(list) {
+  const groups = [];
+  let current = null;
+  list.forEach(k => {
+    const key = k.adhikaram_ta + '||' + k.adhikaram_en;
+    if (!current || current.key !== key) {
+      current = { key, adhikaram_ta: k.adhikaram_ta, adhikaram_en: k.adhikaram_en, items: [] };
+      groups.push(current);
+    }
+    current.items.push(k);
+  });
+  return groups;
+}
+
 function renderList() {
   const app = document.getElementById('app');
   app.innerHTML = '';
 
-  const listEl = document.createElement('div');
-  listEl.className = 'kural-list';
+  const wrap = document.createElement('div');
+  wrap.className = 'browse-wrap';
 
-  kurals.forEach(k => {
-    const tpl = document.getElementById('list-item-template');
-    const node = tpl.content.cloneNode(true);
-    const btn = node.querySelector('.kural-list-item');
-    const num = node.querySelector('.list-item-number');
-    const text = node.querySelector('.list-item-text');
+  const searchWrap = document.createElement('div');
+  searchWrap.className = 'search-wrap';
+  const searchInput = document.createElement('input');
+  searchInput.type = 'search';
+  searchInput.className = 'search-input';
+  searchInput.placeholder = currentLang === 'ta'
+    ? 'குறள் தேட... (எண், சொல்)'
+    : 'Search kurals... (number, word, chapter)';
+  searchWrap.appendChild(searchInput);
+  wrap.appendChild(searchWrap);
 
-    num.textContent = k.id;
-    text.textContent = currentLang === 'en'
-      ? (k.kural_transliteration ? k.kural_transliteration.replace('\n', ' ') : k.kural_ta.replace('\n', ' '))
-      : k.kural_ta.replace('\n', ' ');
+  const resultsEl = document.createElement('div');
+  resultsEl.className = 'kural-list';
+  wrap.appendChild(resultsEl);
 
-    btn.addEventListener('click', () => {
-      detailFromList = true;
-      currentView = 'detail-' + k.id;
-      renderKuralCard(k, true);
-    });
+  function renderResults(query) {
+    resultsEl.innerHTML = '';
+    const q = query.trim().toLowerCase();
 
-    listEl.appendChild(node);
-  });
+    if (!q) {
+      const groups = groupByAdhikaram(kurals);
+      groups.forEach(g => {
+        const gtpl = document.getElementById('adhikaram-group-template');
+        const gnode = gtpl.content.cloneNode(true);
+        const title = gnode.querySelector('.adhikaram-group-title');
+        const range = gnode.querySelector('.adhikaram-group-range');
+        const itemsEl = gnode.querySelector('.adhikaram-group-items');
+        const details = gnode.querySelector('details');
 
-  app.appendChild(listEl);
+        title.textContent = currentLang === 'ta' ? g.adhikaram_ta : g.adhikaram_en;
+        const first = g.items[0].id, last = g.items[g.items.length - 1].id;
+        range.textContent = first === last ? `#${first}` : `#${first}\u2013${last}`;
+        if (kurals.length <= 10) details.open = true;
+
+        g.items.forEach(k => itemsEl.appendChild(buildListItem(k)));
+        resultsEl.appendChild(gnode);
+      });
+    } else {
+      const matches = kurals.filter(k => matchesSearch(k, q));
+      if (matches.length === 0) {
+        const empty = document.createElement('p');
+        empty.className = 'loading';
+        empty.textContent = currentLang === 'ta' ? 'பொருந்தும் குறள் இல்லை' : 'No matching kurals found';
+        resultsEl.appendChild(empty);
+      } else {
+        matches.forEach(k => resultsEl.appendChild(buildListItem(k)));
+      }
+    }
+  }
+
+  searchInput.addEventListener('input', () => renderResults(searchInput.value));
+  renderResults('');
+
+  app.appendChild(wrap);
 }
 
 function renderCurrentView() {

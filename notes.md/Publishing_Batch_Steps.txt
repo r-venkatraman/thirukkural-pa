@@ -8,11 +8,11 @@ Copy-Item -Path app\* -Destination docs -Recurse -Force
 
 3. Bump the cache version — open app/service-worker.js in VS Code, find: Note: Version V is incremental, hence be mindful while updating...
 
-const CACHE_NAME = 'thirukkural-v8';
+const CACHE_NAME = 'thirukkural-v11';
 
 Change to:
 
-const CACHE_NAME = 'thirukkural-v9';
+const CACHE_NAME = 'thirukkural-v12';
 
 Save, then re-sync just that file:
 
@@ -26,4 +26,4 @@ git push
 
 5. Verify live data:
 
-https://r-venkatraman.github.io/thirukkural-pa/data/kurals.json?v=10
+https://r-venkatraman.github.io/thirukkural-pa/data/kurals.json?v=12
