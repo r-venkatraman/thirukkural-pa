@@ -1,0 +1,29 @@
+1. Replace the data file (from the zip I gave you):
+
+Copy-Item -Path C:\Users\Abhinav\OneDrive\Documents\thirukkural-app\data\kurals.json -Destination app\data\kurals.json -Force
+
+2. Sync app/ → docs/ (what's actually live):
+
+Copy-Item -Path app\* -Destination docs -Recurse -Force
+
+3. Bump the cache version — open app/service-worker.js in VS Code, find: Note: Version V is incremental, hence be mindful while updating...
+
+const CACHE_NAME = 'thirukkural-v8';
+
+Change to:
+
+const CACHE_NAME = 'thirukkural-v9';
+
+Save, then re-sync just that file:
+
+Copy-Item -Path app\service-worker.js -Destination docs\service-worker.js -Force
+
+4. Commit and push: (update the commit comment)
+
+git add .
+git commit -m "Add Adhikaram 2 (kurals 11-20)"
+git push
+
+5. Verify live data:
+
+https://r-venkatraman.github.io/thirukkural-pa/data/kurals.json?v=9
