@@ -18,7 +18,7 @@ const LABELS = {
     gitaBtn: '🕉 கீதையுடன் ஒப்பிடு · Compare with the Gita',
     gitaHeading: 'கீதையின் ஒப்பீடு',
     shareLabel: 'இக்குறளைப் பகிர்க',
-    shareText: (k) => `${k.kural_ta}\n\n"${k.translation_en}"\n— திருக்குறள் ${k.id}, Thirukkural\n\n🕉 Bhagavad Gita parallel: ${k.gita_ref}\n${k.gita_verse_translit}\n"${k.gita_verse_en}"`
+    shareText: (k) => `${k.kural_ta}\n\n"${k.translation_en}"\n— திருக்குறள் ${k.id}, Thirukkural\n\n🕉 Bhagavad Gita parallel: ${k.gita_ref}\n${k.gita_verse_en}`
   },
   en: {
     showCore: 'Show meaning',
@@ -33,7 +33,7 @@ const LABELS = {
     gitaBtn: '🕉 Compare with the Gita',
     gitaHeading: 'Bhagavad Gita Parallel',
     shareLabel: 'Share this kural',
-    shareText: (k) => `${k.kural_ta}\n\n"${k.translation_en}"\n— Thirukkural ${k.id}\n\n🕉 Bhagavad Gita parallel: ${k.gita_ref}\n${k.gita_verse_translit}\n"${k.gita_verse_en}"`
+    shareText: (k) => `${k.kural_ta}\n\n"${k.translation_en}"\n— Thirukkural ${k.id}\n\n🕉 Bhagavad Gita parallel: ${k.gita_ref}\n${k.gita_verse_en}`
   }
 };
 
