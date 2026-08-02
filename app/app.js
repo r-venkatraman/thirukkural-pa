@@ -193,7 +193,7 @@ function renderList() {
 
     num.textContent = k.id;
     text.textContent = currentLang === 'en'
-      ? k.translation_en
+      ? (k.kural_transliteration ? k.kural_transliteration.replace('\n', ' ') : k.kural_ta.replace('\n', ' '))
       : k.kural_ta.replace('\n', ' ');
 
     btn.addEventListener('click', () => {
