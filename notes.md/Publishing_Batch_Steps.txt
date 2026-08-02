@@ -20,8 +20,8 @@ Copy-Item -Path app\service-worker.js -Destination docs\service-worker.js -Force
 
 4. Commit and push: (update the commit comment)
 
-git add .
-git commit -m "Add Adhikaram 2 (kurals 11-20)"
+git add .s
+git commit -m "Add Adhikaram 2 (kurals 30-40)"
 git push
 
 5. Verify live data:
