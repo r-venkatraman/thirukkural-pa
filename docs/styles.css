@@ -406,6 +406,14 @@ main {
   line-height: 1.6;
 }
 
+.gita-verse-sa {
+  font-family: 'Noto Sans Devanagari', sans-serif;
+  font-size: 16px;
+  color: #8A4B14;
+  margin: 0 0 10px;
+  line-height: 1.7;
+}
+
 .gita-play-btn {
   display: inline-flex;
   align-items: center;

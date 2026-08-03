@@ -37,25 +37,30 @@ const LABELS = {
   }
 };
 
-function speakText(text, langCode, onEnd) {
+function speakText(text, langCodes, onEnd) {
   if (!('speechSynthesis' in window)) {
     alert('Audio is not supported on this browser.');
     if (onEnd) onEnd();
     return;
   }
+  const codes = Array.isArray(langCodes) ? langCodes : [langCodes];
   window.speechSynthesis.cancel();
   const utterance = new SpeechSynthesisUtterance(text.replace(/\n/g, ', '));
   const voices = window.speechSynthesis.getVoices();
-  const match = voices.find(v => v.lang && v.lang.toLowerCase().startsWith(langCode));
+  let match = null;
+  for (const code of codes) {
+    match = voices.find(v => v.lang && v.lang.toLowerCase().startsWith(code));
+    if (match) break;
+  }
   if (match) utterance.voice = match;
-  utterance.lang = langCode === 'ta' ? 'ta-IN' : 'en-US';
-  utterance.rate = 0.8;
+  utterance.lang = (match && match.lang) || (codes[0] === 'ta' ? 'ta-IN' : 'hi-IN');
+  utterance.rate = 0.75;
   if (onEnd) utterance.onend = onEnd;
   window.speechSynthesis.speak(utterance);
 }
 
 function speakTamil(text, onEnd) {
-  speakText(text, 'ta', onEnd);
+  speakText(text, ['ta'], onEnd);
 }
 
 function pickTodayKural(list) {
@@ -96,6 +101,16 @@ function renderKuralCard(kural, showBack) {
       gitaTaScript.hidden = false;
     } else {
       gitaTaScript.hidden = true;
+    }
+  }
+
+  const gitaSaScript = node.querySelector('[data-field="gita_verse_sa_devanagari"]');
+  if (gitaSaScript) {
+    if (currentLang === 'en' && kural.gita_verse_sa_devanagari) {
+      gitaSaScript.textContent = kural.gita_verse_sa_devanagari;
+      gitaSaScript.hidden = false;
+    } else {
+      gitaSaScript.hidden = true;
     }
   }
   fill(node, 'gita_note', currentLang === 'ta' ? kural.gita_parallel_note_ta : kural.gita_parallel_note_en);
@@ -181,11 +196,20 @@ function renderKuralCard(kural, showBack) {
     gitaPlayBtn.classList.add('playing');
     const playingLabel = currentLang === 'ta' ? 'ஒலிக்கிறது…' : 'Playing…';
     gitaPlayLabel.textContent = playingLabel;
-    const textToSpeak = currentLang === 'ta' && kural.gita_verse_ta_script
-      ? kural.gita_verse_ta_script
-      : kural.gita_verse_en;
-    const voiceLang = currentLang === 'ta' && kural.gita_verse_ta_script ? 'ta' : 'en';
-    speakText(textToSpeak, voiceLang, () => {
+
+    let textToSpeak, voiceCodes;
+    if (currentLang === 'ta' && kural.gita_verse_ta_script) {
+      textToSpeak = kural.gita_verse_ta_script;
+      voiceCodes = ['ta'];
+    } else if (kural.gita_verse_sa_devanagari) {
+      textToSpeak = kural.gita_verse_sa_devanagari;
+      voiceCodes = ['sa', 'hi']; // true Sanskrit voice if it ever exists, else Hindi as closest proxy
+    } else {
+      textToSpeak = kural.gita_verse_translit;
+      voiceCodes = ['en'];
+    }
+
+    speakText(textToSpeak, voiceCodes, () => {
       gitaPlayBtn.classList.remove('playing');
       gitaPlayLabel.textContent = currentLang === 'ta' ? 'ஒலிக்க' : 'Listen';
     });
