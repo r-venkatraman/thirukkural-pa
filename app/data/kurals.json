@@ -13,11 +13,12 @@
     "urai_full_ta": "பரிமேலழகர்:- கவி இயற்றுதற்குக் கடவுளை வாழ்த்துதலே பாயிரத்தின் தொடக்கம். எழுத்தெல்லாம் அகரம் முதலாக உள்ளது போல, உலகம் ஆதிபகவனை முதலாகக் கொண்டுள்ளது என்பதாம். (இது முழு உரையிலிருந்து சுருக்கப்பட்ட மொழிபெயர்ப்பு; முழு உரையை மூலப் பிரதியில் காணலாம்.)",
     "urai_full_en": "Parimelazhagar: A poet, in composing verse, first invokes the deity fitting for praise — this is the opening benediction of the preface. Just as every letter proceeds from 'A', the world proceeds from, and depends upon, the Primal Being (God). (This is a condensed rendering; the complete scholarly commentary with grammatical notes is in the source edition.)",
     "gita_ref": "Bhagavad Gita 10.33",
-    "gita_verse_translit": "akṣarāṇām akāro'smi",
-    "gita_verse_en": "\"Among letters, I am the letter A.\" — Krishna, describing His own primal nature.",
+    "gita_verse_translit": "akṣarāṇām akāro'smi dvandvaḥ sāmāsikasya ca\nAham evākṣayaḥ kālo dhātāhaṁ viśvatomukhaḥ",
+    "gita_verse_en": "Among letters, I am the letter A; among compound words, I am the dual. I alone am imperishable time; of creators, I am Brahma, the one facing every direction.",
     "gita_parallel_note_en": "Both texts independently reach for the same image: the first letter of the alphabet as a symbol for the divine source from which everything else proceeds.",
     "gita_parallel_note_ta": "இரு நூல்களும் ஒரே உவமையைப் பயன்படுத்துகின்றன — எழுத்துக்களின் முதலாகிய 'அ', அனைத்தும் தோன்றும் மூலமாகிய இறைவனைக் குறிக்கும் குறியீடாகும்.",
-    "gita_match_strength": "close"
+    "gita_match_strength": "close",
+    "gita_verse_ta_script": "அக்ஷராணாமகாரோஸ்மி த்வந்த்வஃ ஸாமாஸிகஸ்ய ச\nஅஹமேவாக்ஷயஃ காலோ தாதாஹம் விச்வதோமுகஃ"
   },
   {
     "id": 2,

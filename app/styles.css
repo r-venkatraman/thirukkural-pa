@@ -398,6 +398,34 @@ main {
   color: #B5651D;
 }
 
+.gita-verse-ta {
+  font-family: 'Noto Sans Tamil', sans-serif;
+  font-size: 15px;
+  color: #8A4B14;
+  margin: 0 0 10px;
+  line-height: 1.6;
+}
+
+.gita-play-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #FFF0D6;
+  color: #8A4B14;
+  border: none;
+  border-radius: 16px;
+  padding: 6px 14px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+
+.gita-play-btn.playing {
+  background: #B5651D;
+  color: #fff;
+}
+
 .gita-ref {
   font-weight: 600;
   font-size: 14px;

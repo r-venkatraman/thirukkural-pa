@@ -37,7 +37,7 @@ const LABELS = {
   }
 };
 
-function speakTamil(text, onEnd) {
+function speakText(text, langCode, onEnd) {
   if (!('speechSynthesis' in window)) {
     alert('Audio is not supported on this browser.');
     if (onEnd) onEnd();
@@ -46,12 +46,16 @@ function speakTamil(text, onEnd) {
   window.speechSynthesis.cancel();
   const utterance = new SpeechSynthesisUtterance(text.replace(/\n/g, ', '));
   const voices = window.speechSynthesis.getVoices();
-  const tamilVoice = voices.find(v => v.lang && v.lang.toLowerCase().startsWith('ta'));
-  if (tamilVoice) utterance.voice = tamilVoice;
-  utterance.lang = 'ta-IN';
+  const match = voices.find(v => v.lang && v.lang.toLowerCase().startsWith(langCode));
+  if (match) utterance.voice = match;
+  utterance.lang = langCode === 'ta' ? 'ta-IN' : 'en-US';
   utterance.rate = 0.8;
   if (onEnd) utterance.onend = onEnd;
   window.speechSynthesis.speak(utterance);
+}
+
+function speakTamil(text, onEnd) {
+  speakText(text, 'ta', onEnd);
 }
 
 function pickTodayKural(list) {
@@ -84,6 +88,16 @@ function renderKuralCard(kural, showBack) {
   fill(node, 'gita_ref', kural.gita_ref);
   fill(node, 'gita_verse_translit', kural.gita_verse_translit);
   fill(node, 'gita_verse_en', kural.gita_verse_en);
+
+  const gitaTaScript = node.querySelector('[data-field="gita_verse_ta_script"]');
+  if (gitaTaScript) {
+    if (currentLang === 'ta' && kural.gita_verse_ta_script) {
+      gitaTaScript.textContent = kural.gita_verse_ta_script;
+      gitaTaScript.hidden = false;
+    } else {
+      gitaTaScript.hidden = true;
+    }
+  }
   fill(node, 'gita_note', currentLang === 'ta' ? kural.gita_parallel_note_ta : kural.gita_parallel_note_en);
 
   const translit = node.querySelector('[data-field="kural_transliteration"]');
@@ -160,6 +174,23 @@ function renderKuralCard(kural, showBack) {
   });
 
   const gitaBtn = document.getElementById('show-gita');
+  const gitaPlayBtn = document.getElementById('play-gita');
+  const gitaPlayLabel = document.getElementById('gita-play-label');
+  gitaPlayLabel.textContent = currentLang === 'ta' ? 'ஒலிக்க' : 'Listen';
+  gitaPlayBtn.addEventListener('click', () => {
+    gitaPlayBtn.classList.add('playing');
+    const playingLabel = currentLang === 'ta' ? 'ஒலிக்கிறது…' : 'Playing…';
+    gitaPlayLabel.textContent = playingLabel;
+    const textToSpeak = currentLang === 'ta' && kural.gita_verse_ta_script
+      ? kural.gita_verse_ta_script
+      : kural.gita_verse_en;
+    const voiceLang = currentLang === 'ta' && kural.gita_verse_ta_script ? 'ta' : 'en';
+    speakText(textToSpeak, voiceLang, () => {
+      gitaPlayBtn.classList.remove('playing');
+      gitaPlayLabel.textContent = currentLang === 'ta' ? 'ஒலிக்க' : 'Listen';
+    });
+  });
+
   const gitaBlock = document.getElementById('gita-block');
   gitaBtn.addEventListener('click', () => {
     const isHidden = gitaBlock.hidden;
