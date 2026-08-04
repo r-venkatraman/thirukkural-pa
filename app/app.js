@@ -18,7 +18,7 @@ const LABELS = {
     gitaBtn: '🕉 கீதையுடன் ஒப்பிடு · Compare with the Gita',
     gitaHeading: 'கீதையின் ஒப்பீடு',
     shareLabel: 'இக்குறளைப் பகிர்க',
-    shareText: (k) => `${k.kural_ta}\n\n"${k.urai_core_ta}"\n— திருக்குறள் ${k.id}, Thirukkural\n\n🕉 கீதை ஒப்புமை: ${k.gita_ref}\n${k.gita_verse_ta_script}\n"${k.gita_verse_meaning_ta}"`
+    shareText: (k) => `${k.kural_ta}\n\n"${k.urai_core_ta}"\n— திருக்குறள் ${k.id}, Thirukkural\n\n🕉 கீதை ஒப்புமை: ${k.gita_ref}\n${stripHighlightMarkers(k.gita_verse_ta_script)}\n"${k.gita_verse_meaning_ta}"`
   },
   en: {
     showCore: 'Show meaning',
@@ -76,6 +76,24 @@ function fill(root, field, value) {
   if (el) el.textContent = value;
 }
 
+// Renders text containing ‹...› markers as bold spans (used for highlighting
+// the matching phrase within a full Sanskrit/Tamil-script sloka).
+function renderWithHighlight(el, text) {
+  if (!el || !text) return;
+  const escapeHtml = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  const parts = text.split(/[\u2039\u203A]/); // split on ‹ ›
+  let html = '';
+  parts.forEach((part, i) => {
+    const escaped = escapeHtml(part);
+    html += (i % 2 === 1) ? `<strong class="gita-highlight">${escaped}</strong>` : escaped;
+  });
+  el.innerHTML = html;
+}
+
+function stripHighlightMarkers(text) {
+  return text ? text.replace(/[\u2039\u203A]/g, '') : text;
+}
+
 function renderKuralCard(kural, showBack) {
   const app = document.getElementById('app');
   const tpl = document.getElementById('kural-template');
@@ -98,7 +116,7 @@ function renderKuralCard(kural, showBack) {
   const gitaTaScript = node.querySelector('[data-field="gita_verse_ta_script"]');
   if (gitaTaScript) {
     if (currentLang === 'ta' && kural.gita_verse_ta_script) {
-      gitaTaScript.textContent = kural.gita_verse_ta_script;
+      renderWithHighlight(gitaTaScript, kural.gita_verse_ta_script);
       gitaTaScript.hidden = false;
     } else {
       gitaTaScript.hidden = true;
@@ -108,7 +126,7 @@ function renderKuralCard(kural, showBack) {
   const gitaSaScript = node.querySelector('[data-field="gita_verse_sa_devanagari"]');
   if (gitaSaScript) {
     if (currentLang === 'en' && kural.gita_verse_sa_devanagari) {
-      gitaSaScript.textContent = kural.gita_verse_sa_devanagari;
+      renderWithHighlight(gitaSaScript, kural.gita_verse_sa_devanagari);
       gitaSaScript.hidden = false;
     } else {
       gitaSaScript.hidden = true;
@@ -183,14 +201,12 @@ function renderKuralCard(kural, showBack) {
     showCoreBtn.hidden = false;
     coreBlock.hidden = true;
     showCoreBtn.addEventListener('click', () => {
-      coreBlock.hidden = false;
-      showCoreBtn.hidden = true;
+      coreBlock.hidden = !coreBlock.hidden;
     });
   }
 
   showFullBtn.addEventListener('click', () => {
-    fullBlock.hidden = false;
-    showFullBtn.hidden = true;
+    fullBlock.hidden = !fullBlock.hidden;
   });
 
   // English mode: visually emphasize direct/close Gita parallels
@@ -235,10 +251,10 @@ function renderKuralCard(kural, showBack) {
 
     let textToSpeak, voiceCodes;
     if (currentLang === 'ta' && kural.gita_verse_ta_script) {
-      textToSpeak = kural.gita_verse_ta_script;
+      textToSpeak = stripHighlightMarkers(kural.gita_verse_ta_script);
       voiceCodes = ['ta'];
     } else if (kural.gita_verse_sa_devanagari) {
-      textToSpeak = kural.gita_verse_sa_devanagari;
+      textToSpeak = stripHighlightMarkers(kural.gita_verse_sa_devanagari);
       voiceCodes = ['sa', 'hi']; // true Sanskrit voice if it ever exists, else Hindi as closest proxy
     } else {
       textToSpeak = kural.gita_verse_translit;

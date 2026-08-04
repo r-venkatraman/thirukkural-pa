@@ -396,9 +396,9 @@ main {
 }
 
 .gita-btn {
-  background: transparent;
-  color: #B5651D;
-  border: 1px solid #E8C39E;
+  background: var(--accent);
+  color: #fff;
+  border: none;
   margin-top: 18px;
 }
 
@@ -430,6 +430,12 @@ main {
   color: #8A4B14;
   margin: 0 0 10px;
   line-height: 1.7;
+}
+
+.gita-highlight {
+  font-weight: 800;
+  color: #B5651D;
+  border-bottom: 2px solid #D9A441;
 }
 
 .gita-play-btn {
@@ -561,7 +567,6 @@ main {
 }
 
 .reveal-btn {
-  display: block;
   width: 100%;
   padding: 12px;
   border: none;
@@ -574,10 +579,18 @@ main {
   margin-top: 8px;
 }
 
+.reveal-btn[hidden] {
+  display: none;
+}
+
+.reveal-btn:not([hidden]) {
+  display: block;
+}
+
 .reveal-btn.secondary {
-  background: transparent;
-  color: var(--accent);
-  border: 1px solid var(--accent);
+  background: var(--accent);
+  color: #fff;
+  border: none;
 }
 
 .urai-block {
