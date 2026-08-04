@@ -18,7 +18,7 @@ const LABELS = {
     gitaBtn: '🕉 கீதையுடன் ஒப்பிடு · Compare with the Gita',
     gitaHeading: 'கீதையின் ஒப்பீடு',
     shareLabel: 'இக்குறளைப் பகிர்க',
-    shareText: (k) => `${k.kural_ta}\n\n"${k.translation_en}"\n— திருக்குறள் ${k.id}, Thirukkural\n\n🕉 Bhagavad Gita parallel: ${k.gita_ref}\n${k.gita_verse_translit}\n"${k.gita_verse_en}"`
+    shareText: (k) => `${k.kural_ta}\n\n"${k.urai_core_ta}"\n— திருக்குறள் ${k.id}, Thirukkural\n\n🕉 கீதை ஒப்புமை: ${k.gita_ref}\n${k.gita_verse_ta_script}\n"${k.gita_verse_meaning_ta}"`
   },
   en: {
     showCore: 'Show meaning',
@@ -93,6 +93,7 @@ function renderKuralCard(kural, showBack) {
   fill(node, 'gita_ref', kural.gita_ref);
   fill(node, 'gita_verse_translit', kural.gita_verse_translit);
   fill(node, 'gita_verse_en', kural.gita_verse_en);
+  fill(node, 'gita_verse_meaning_ta', kural.gita_verse_meaning_ta);
 
   const gitaTaScript = node.querySelector('[data-field="gita_verse_ta_script"]');
   if (gitaTaScript) {
@@ -113,6 +114,21 @@ function renderKuralCard(kural, showBack) {
       gitaSaScript.hidden = true;
     }
   }
+
+  // Roman transliteration and English meaning: English mode only
+  const gitaRomanized = node.querySelector('#gita-verse-romanized');
+  const gitaMeaningEn = node.querySelector('#gita-meaning-en');
+  const gitaMeaningTa = node.querySelector('#gita-meaning-ta');
+  if (currentLang === 'ta') {
+    if (gitaRomanized) gitaRomanized.hidden = true;
+    if (gitaMeaningEn) gitaMeaningEn.hidden = true;
+    if (gitaMeaningTa) gitaMeaningTa.hidden = false;
+  } else {
+    if (gitaRomanized) gitaRomanized.hidden = false;
+    if (gitaMeaningEn) gitaMeaningEn.hidden = false;
+    if (gitaMeaningTa) gitaMeaningTa.hidden = true;
+  }
+
   fill(node, 'gita_note', currentLang === 'ta' ? kural.gita_parallel_note_ta : kural.gita_parallel_note_en);
 
   const translit = node.querySelector('[data-field="kural_transliteration"]');
@@ -154,15 +170,35 @@ function renderKuralCard(kural, showBack) {
   const fullBlock = document.getElementById('urai-full-block');
   const showCoreBtn = document.getElementById('show-core');
   const showFullBtn = document.getElementById('show-full');
+  const translationEnBlock = document.getElementById('translation-en-block');
 
-  showCoreBtn.addEventListener('click', () => {
-    coreBlock.hidden = false;
+  if (currentLang === 'ta') {
+    // Tamil mode: skip the English meaning + reveal button entirely,
+    // show தெளிவுரை (core urai) directly in its place.
+    if (translationEnBlock) translationEnBlock.hidden = true;
     showCoreBtn.hidden = true;
-  });
+    coreBlock.hidden = false;
+  } else {
+    if (translationEnBlock) translationEnBlock.hidden = false;
+    showCoreBtn.hidden = false;
+    coreBlock.hidden = true;
+    showCoreBtn.addEventListener('click', () => {
+      coreBlock.hidden = false;
+      showCoreBtn.hidden = true;
+    });
+  }
+
   showFullBtn.addEventListener('click', () => {
     fullBlock.hidden = false;
     showFullBtn.hidden = true;
   });
+
+  // English mode: visually emphasize direct/close Gita parallels
+  const gitaBlockEl = document.getElementById('gita-block');
+  if (gitaBlockEl) {
+    gitaBlockEl.classList.remove('strength-direct', 'strength-close', 'strength-thematic');
+    gitaBlockEl.classList.add('strength-' + strength);
+  }
 
   const backBtn = document.getElementById('back-to-list');
   if (showBack) {

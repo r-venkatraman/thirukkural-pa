@@ -144,9 +144,11 @@ main {
 }
 
 .match-badge.direct {
-  background: #FFF0D6;
+  background: #FFE3B0;
   color: #8A4B14;
-  border: 1px solid #E8C39E;
+  border: 1.5px solid #D9A441;
+  font-weight: 700;
+  box-shadow: 0 0 0 2px rgba(217, 164, 65, 0.15);
 }
 
 .match-badge.close {
@@ -159,6 +161,22 @@ main {
   background: #F1EFE8;
   color: #5F5E5A;
   border: 1px solid #D3D1C7;
+}
+
+.gita-block.strength-direct {
+  border: 2px solid #D9A441;
+  background: #FFF9EE;
+}
+
+.gita-block.strength-direct .gita-verse,
+.gita-block.strength-direct .gita-verse-sa {
+  font-weight: 700;
+  color: #7A4109;
+}
+
+.gita-block.strength-close .gita-verse,
+.gita-block.strength-close .gita-verse-sa {
+  font-weight: 600;
 }
 
 .stats-bar {

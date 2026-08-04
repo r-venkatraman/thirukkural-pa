@@ -21,7 +21,7 @@ Copy-Item -Path app\service-worker.js -Destination docs\service-worker.js -Force
 4. Commit and push: (update the commit comment)
 
 git add .
-git commit -m "120 kurals complete — batch (91–120) finished"
+git commit -m "Upgrade: Geeta full sloka both tamil devanagari"
 git push
 
 5. Verify live data:
