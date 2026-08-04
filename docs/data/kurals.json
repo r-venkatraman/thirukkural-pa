@@ -1599,15 +1599,15 @@
     "urai_core_en": "The true help a son gives his father is causing others to remark, \"What penance did this boy's father perform, to be blessed with such a son?\"",
     "urai_full_ta": "பரிமேலழகர்:- மகன் தன் தந்தைக்குச் செய்யும் உதவியாவது, \"இவன் தந்தை இவனைப் பெறுதற்கு என்ன தவம் செய்தானோ\" என்று உலகோர் சொல்லும்படி நடந்துகொள்வதே என்பதாம்.",
     "urai_full_en": "Parimelazhagar: The true help that a son renders to his father consists in conducting himself in such a way that the world remarks, \"What penance did this man's father perform to be granted such a son?\"",
-    "gita_ref": "Bhagavad Gita 1.42",
+    "gita_ref": "Bhagavad Gita 1.44",
     "gita_verse_translit": "utsādyante jāti-dharmāḥ kula-dharmāś ca śāśvatāḥ",
-    "gita_verse_en": "\"The eternal family duties and traditions are destroyed [when descendants act wrongly].\"",
+    "gita_verse_en": "I have heard from the learned that those who destroy their family’s dharma dwell in hell for an indefinite time, O Janardan.",
     "gita_parallel_note_en": "Both texts recognize the same reciprocal truth from opposite directions — the Gita warns how a family's honor is lost through descendants' wrongdoing, while the Kural celebrates how it is won through a son's excellence.",
     "gita_parallel_note_ta": "வழித்தோன்றல்களின் நடத்தையே குடும்பத்தின் பெருமையையும் இழிவையும் தீர்மானிக்கும் என்பதை இரு நூல்களும் — எதிரெதிர் கோணங்களில் — காட்டுகின்றன.",
     "gita_match_strength": "close",
     "gita_verse_sa_devanagari": "उत्सन्नकुलधर्माणां मनुष्याणां जनार्दन।\nनरके नियतं वासो भवतीत्यनुशुश्रुम॥",
     "gita_verse_ta_script": "உத்ஸந்நகுலதர்மாணாம் மநுஷ்யாணாம் ஜநார்தந\nநரகே நியதம் வாஸோ பவதீத்யநுஶுஶ்ரும",
-    "gita_verse_meaning_ta": "வழிமரபு அறங்களும் குலமரபுகளும் அழிந்துவிடும் [வழித்தோன்றல்கள் தவறாக நடந்தால்]."
+    "gita_verse_meaning_ta": "குலதர்மத்தை அழிப்பவர்கள் காலவரம்பின்றி நரகில் வாழ்வர் என்று அறிஞரிடமிருந்து கேள்விப்பட்டேன், ஜனார்த்தனா."
   },
   {
     "id": 71,
@@ -1906,7 +1906,7 @@
     "gita_match_strength": "close",
     "gita_verse_sa_devanagari": "अनन्याश्चिन्तयन्तो मां ये जनाः पर्युपासते।\nतेषां नित्याभियुक्तानां ‹योगक्षेमं वहाम्यहम्›॥",
     "gita_verse_ta_script": "அநந்யாஶ்சிந்தயந்தோ மாம் யே ஜநாஃ பர்யுபாஸதே\nதேஷாம் நித்யாபியுக்தாநாம் ‹யோகக்ஷேமம் வஹாம்யஹம்›",
-    "gita_verse_meaning_ta": "என்னிடம் மட்டுமே அர்ப்பணிப்புள்ளவர்களுக்கு, அவர்களுக்குக் குறைவானதை நான் தருகிறேன், உள்ளதைப் பாதுகாக்கிறேன்."
+    "gita_verse_meaning_ta": "என்னிடம் மட்டுமே அர்ப்பணிப்புள்ளவர்களுக்கு, அவர்களுக்கு இல்லாதவற்றை நான் பெற்றுத் தருகிறேன், அவர்களிடம் உள்ளவற்றைப் பாதுகாக்கிறேன்."
   },
   {
     "id": 84,
@@ -1952,7 +1952,7 @@
     "gita_match_strength": "close",
     "gita_verse_sa_devanagari": "अनन्याश्चिन्तयन्तो मां ये जनाः पर्युपासते।\nतेषां नित्याभियुक्तानां ‹योगक्षेमं वहाम्यहम्›॥",
     "gita_verse_ta_script": "அநந்யாஶ்சிந்தயந்தோ மாம் யே ஜநாஃ பர்யுபாஸதே\nதேஷாம் நித்யாபியுக்தாநாம் ‹யோகக்ஷேமம் வஹாம்யஹம்›",
-    "gita_verse_meaning_ta": "என்னிடம் மட்டுமே அர்ப்பணிப்புள்ளவர்களுக்கு, அவர்களுக்குக் குறைவானதை நான் தருகிறேன், உள்ளதைப் பாதுகாக்கிறேன்."
+    "gita_verse_meaning_ta": "என்னிடம் மட்டுமே அர்ப்பணிப்புள்ளவர்களுக்கு, அவர்களுக்கு இல்லாதவற்றை நான் பெற்றுத் தருகிறேன், அவர்களிடம் உள்ளவற்றைப் பாதுகாக்கிறேன்."
   },
   {
     "id": 86,
@@ -2159,7 +2159,7 @@
     "gita_match_strength": "close",
     "gita_verse_sa_devanagari": "अनन्याश्चिन्तयन्तो मां ये जनाः पर्युपासते।\nतेषां नित्याभियुक्तानां ‹योगक्षेमं वहाम्यहम्›॥",
     "gita_verse_ta_script": "அநந்யாஶ்சிந்தயந்தோ மாம் யே ஜநாஃ பர்யுபாஸதே\nதேஷாம் நித்யாபியுக்தாநாம் ‹யோகக்ஷேமம் வஹாம்யஹம்›",
-    "gita_verse_meaning_ta": "என்னிடம் மட்டுமே அர்ப்பணிப்புள்ளவர்களுக்கு, அவர்களுக்குக் குறைவானதை நான் தருகிறேன், உள்ளதைப் பாதுகாக்கிறேன்."
+    "gita_verse_meaning_ta": "என்னிடம் மட்டுமே அர்ப்பணிப்புள்ளவர்களுக்கு, அவர்களுக்கு இல்லாதவற்றை நான் பெற்றுத் தருகிறேன், அவர்களிடம் உள்ளவற்றைப் பாதுகாக்கிறேன்."
   },
   {
     "id": 95,
@@ -2611,15 +2611,15 @@
     "urai_core_en": "Who is truly worthy and who is not becomes clear through what remains and endures after each of them.",
     "urai_full_ta": "பரிமேலழகர்:- இவர் நடுவு நிலைமை உடையவர், இவர் இலர் என்னும் வேறுபாடு, அவரவருடைய நன்மக்களது இருப்பாலும் இன்மையாலும் அறியப்படும் என்பதாம்.",
     "urai_full_en": "Parimelazhagar: The distinction between one who possesses impartiality and one who does not is made known through the presence or absence of worthy descendants belonging to each.",
-    "gita_ref": "Bhagavad Gita 1.42",
+    "gita_ref": "Bhagavad Gita 1.44",
     "gita_verse_translit": "utsādyante jāti-dharmāḥ kula-dharmāś ca śāśvatāḥ",
-    "gita_verse_en": "\"The eternal family duties and traditions are destroyed [through the wrongdoing of descendants].\"",
+    "gita_verse_en": "I have heard from the learned that those who destroy their family’s dharma dwell in hell for an indefinite time, O Janardan.",
     "gita_parallel_note_en": "Both texts locate the true measure of a person's worth in what they leave behind through their descendants — legacy as the final, unbiased verdict on a life.",
     "gita_parallel_note_ta": "ஒருவரின் தகுதி, அவர் வழியில் விட்டுச்செல்லும் வழித்தோன்றல்களால் தெரியவரும் என்பதை இரு நூல்களும் காட்டுகின்றன.",
     "gita_match_strength": "close",
     "gita_verse_sa_devanagari": "उत्सन्नकुलधर्माणां मनुष्याणां जनार्दन।\nनरके नियतं वासो भवतीत्यनुशुश्रुम॥",
     "gita_verse_ta_script": "உத்ஸந்நகுலதர்மாணாம் மநுஷ்யாணாம் ஜநார்தந\nநரகே நியதம் வாஸோ பவதீத்யநுஶுஶ்ரும",
-    "gita_verse_meaning_ta": "வழிமரபு அறங்களும் குலமரபுகளும் அழிந்துவிடும் [வழித்தோன்றல்கள் தவறாக நடந்தால்]."
+    "gita_verse_meaning_ta": "குலதர்மத்தை அழிப்பவர்கள் காலவரம்பின்றி நரகில் வாழ்வர் என்று அறிஞரிடமிருந்து கேள்விப்பட்டேன், ஜனார்த்தனா."
   },
   {
     "id": 115,
@@ -4114,7 +4114,7 @@
     "gita_match_strength": "close",
     "gita_verse_sa_devanagari": "अनन्याश्चिन्तयन्तो मां ये जनाः पर्युपासते।\nतेषां नित्याभियुक्तानां ‹योगक्षेमं वहाम्यहम्›॥",
     "gita_verse_ta_script": "அநந்யாஶ்சிந்தயந்தோ மாம் யே ஜநாஃ பர்யுபாஸதே\nதேஷாம் நித்யாபியுக்தாநாம் ‹யோகக்ஷேமம் வஹாம்யஹம்›",
-    "gita_verse_meaning_ta": "என்னிடம் மட்டுமே அர்ப்பணிப்புள்ளவர்களுக்கு, அவர்களுக்குக் குறைவானதை நான் தருகிறேன், உள்ளதைப் பாதுகாக்கிறேன்."
+    "gita_verse_meaning_ta": "என்னிடம் மட்டுமே அர்ப்பணிப்புள்ளவர்களுக்கு, அவர்களுக்கு இல்லாதவற்றை நான் பெற்றுத் தருகிறேன், அவர்களிடம் உள்ளவற்றைப் பாதுகாக்கிறேன்."
   },
   {
     "id": 180,
@@ -4942,7 +4942,7 @@
     "gita_match_strength": "close",
     "gita_verse_sa_devanagari": "अनन्याश्चिन्तयन्तो मां ये जनाः पर्युपासते।\nतेषां नित्याभियुक्तानां ‹योगक्षेमं वहाम्यहम्›॥",
     "gita_verse_ta_script": "அநந்யாஶ்சிந்தயந்தோ மாம் யே ஜநாஃ பர்யுபாஸதே\nதேஷாம் நித்யாபியுக்தாநாம் ‹யோகக்ஷேமம் வஹாம்யஹம்›",
-    "gita_verse_meaning_ta": "என்னிடம் மட்டுமே அர்ப்பணிப்புள்ளவர்களுக்கு, அவர்களுக்குக் குறைவானதை நான் தருகிறேன், உள்ளதைப் பாதுகாக்கிறேன்."
+    "gita_verse_meaning_ta": "என்னிடம் மட்டுமே அர்ப்பணிப்புள்ளவர்களுக்கு, அவர்களுக்கு இல்லாதவற்றை நான் பெற்றுத் தருகிறேன், அவர்களிடம் உள்ளவற்றைப் பாதுகாக்கிறேன்."
   },
   {
     "id": 216,
@@ -4965,7 +4965,7 @@
     "gita_match_strength": "close",
     "gita_verse_sa_devanagari": "अनन्याश्चिन्तयन्तो मां ये जनाः पर्युपासते।\nतेषां नित्याभियुक्तानां ‹योगक्षेमं वहाम्यहम्›॥",
     "gita_verse_ta_script": "அநந்யாஶ்சிந்தயந்தோ மாம் யே ஜநாஃ பர்யுபாஸதே\nதேஷாம் நித்யாபியுக்தாநாம் ‹யோகக்ஷேமம் வஹாம்யஹம்›",
-    "gita_verse_meaning_ta": "என்னிடம் மட்டுமே அர்ப்பணிப்புள்ளவர்களுக்கு, அவர்களுக்குக் குறைவானதை நான் தருகிறேன், உள்ளதைப் பாதுகாக்கிறேன்."
+    "gita_verse_meaning_ta": "என்னிடம் மட்டுமே அர்ப்பணிப்புள்ளவர்களுக்கு, அவர்களுக்கு இல்லாதவற்றை நான் பெற்றுத் தருகிறேன், அவர்களிடம் உள்ளவற்றைப் பாதுகாக்கிறேன்."
   },
   {
     "id": 217,
