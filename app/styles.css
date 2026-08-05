@@ -6,6 +6,62 @@
   --accent: #0F6E56;
   --accent-light: #E1F5EE;
   --border: #E4E0D4;
+  --accent-strong: #0F6E56;
+  --share-bg: var(--ink);
+  --share-fg: #fff;
+
+  --gita-badge-direct-bg: #FFE3B0;
+  --gita-badge-direct-fg: #8A4B14;
+  --gita-badge-direct-border: #D9A441;
+
+  --gita-badge-thematic-bg: #F1EFE8;
+  --gita-badge-thematic-fg: #5F5E5A;
+  --gita-badge-thematic-border: #D3D1C7;
+
+  --gita-block-bg: #FFF7EC;
+  --gita-block-border: #E8C39E;
+  --gita-block-strong-bg: #FFF9EE;
+  --gita-text-strong: #8A4B14;
+  --gita-text-stronger: #7A4109;
+  --gita-highlight: #B5651D;
+
+  --gita-chip-bg: #FFF0D6;
+  --gita-chip-fg: #8A4B14;
+  --gita-chip-playing-bg: #B5651D;
+  --gita-chip-playing-fg: #fff;
+}
+
+html[data-theme="dark"] {
+  --bg: #161512;
+  --card: #211F1B;
+  --ink: #F0EDE4;
+  --muted: #A6A399;
+  --accent: #3DBFA0;
+  --accent-light: #1B3B33;
+  --border: #3A3730;
+  --accent-strong: #0B5443;
+  --share-bg: #2E2B24;
+  --share-fg: #F0EDE4;
+
+  --gita-badge-direct-bg: #4A3216;
+  --gita-badge-direct-fg: #F5C97A;
+  --gita-badge-direct-border: #B5843A;
+
+  --gita-badge-thematic-bg: #2A2925;
+  --gita-badge-thematic-fg: #B8B5AB;
+  --gita-badge-thematic-border: #454239;
+
+  --gita-block-bg: #241C12;
+  --gita-block-border: #5C4526;
+  --gita-block-strong-bg: #2E2210;
+  --gita-text-strong: #E8B979;
+  --gita-text-stronger: #F0C387;
+  --gita-highlight: #D9924A;
+
+  --gita-chip-bg: #3D2C13;
+  --gita-chip-fg: #F0C387;
+  --gita-chip-playing-bg: #D9924A;
+  --gita-chip-playing-fg: #241C12;
 }
 
 * { box-sizing: border-box; }
@@ -24,7 +80,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: max(20px, env(safe-area-inset-top)) max(20px, env(safe-area-inset-right)) 16px max(20px, env(safe-area-inset-left));
-  background: var(--accent);
+  background: var(--accent-strong);
   color: #fff;
 }
 
@@ -48,11 +104,53 @@ body {
   font-weight: 600;
 }
 
+.header-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .lang-toggle {
   display: flex;
   background: rgba(255,255,255,0.15);
   border-radius: 20px;
   padding: 3px;
+}
+
+.theme-toggle {
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.theme-toggle-track {
+  display: flex;
+  align-items: center;
+  width: 44px;
+  height: 24px;
+  padding: 2px;
+  background: rgba(255,255,255,0.15);
+  border-radius: 20px;
+  transition: background 0.2s;
+}
+
+.theme-toggle-thumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #fff;
+  font-size: 11px;
+  line-height: 1;
+  transition: transform 0.2s;
+}
+
+.theme-toggle[aria-checked="true"] .theme-toggle-thumb {
+  transform: translateX(20px);
 }
 
 .lang-btn {
@@ -67,7 +165,7 @@ body {
 
 .lang-btn.active {
   background: #fff;
-  color: var(--accent);
+  color: var(--accent-strong);
   font-weight: 600;
 }
 
@@ -99,9 +197,9 @@ main {
 }
 
 .view-tab.active {
-  background: var(--accent);
+  background: var(--accent-strong);
   color: #fff;
-  border-color: var(--accent);
+  border-color: var(--accent-strong);
 }
 
 .back-btn {
@@ -144,9 +242,9 @@ main {
 }
 
 .match-badge.direct {
-  background: #FFE3B0;
-  color: #8A4B14;
-  border: 1.5px solid #D9A441;
+  background: var(--gita-badge-direct-bg);
+  color: var(--gita-badge-direct-fg);
+  border: 1.5px solid var(--gita-badge-direct-border);
   font-weight: 700;
   box-shadow: 0 0 0 2px rgba(217, 164, 65, 0.15);
 }
@@ -158,20 +256,20 @@ main {
 }
 
 .match-badge.thematic {
-  background: #F1EFE8;
-  color: #5F5E5A;
-  border: 1px solid #D3D1C7;
+  background: var(--gita-badge-thematic-bg);
+  color: var(--gita-badge-thematic-fg);
+  border: 1px solid var(--gita-badge-thematic-border);
 }
 
 .gita-block.strength-direct {
-  border: 2px solid #D9A441;
-  background: #FFF9EE;
+  border: 2px solid var(--gita-badge-direct-border);
+  background: var(--gita-block-strong-bg);
 }
 
 .gita-block.strength-direct .gita-verse,
 .gita-block.strength-direct .gita-verse-sa {
   font-weight: 700;
-  color: #7A4109;
+  color: var(--gita-text-stronger);
 }
 
 .gita-block.strength-close .gita-verse,
@@ -211,8 +309,8 @@ main {
 }
 
 .highlights-group {
-  background: #FFF7EC;
-  border: 1px solid #E8C39E;
+  background: var(--gita-block-bg);
+  border: 1px solid var(--gita-block-border);
   border-radius: 12px;
   overflow: hidden;
   margin-bottom: 16px;
@@ -225,7 +323,7 @@ main {
   cursor: pointer;
   font-weight: 600;
   font-size: 14px;
-  color: #8A4B14;
+  color: var(--gita-text-strong);
   list-style: none;
 }
 
@@ -249,8 +347,8 @@ main {
   align-items: center;
   gap: 10px;
   text-align: left;
-  background: #fff;
-  border: 1px solid #E8C39E;
+  background: var(--card);
+  border: 1px solid var(--gita-block-border);
   border-radius: 10px;
   padding: 10px 14px;
   cursor: pointer;
@@ -261,8 +359,8 @@ main {
 
 .highlight-item .hl-num {
   flex-shrink: 0;
-  background: #FFF0D6;
-  color: #8A4B14;
+  background: var(--gita-chip-bg);
+  color: var(--gita-chip-fg);
   font-weight: 600;
   font-size: 12px;
   border-radius: 8px;
@@ -396,7 +494,7 @@ main {
 }
 
 .gita-btn {
-  background: var(--accent);
+  background: var(--accent-strong);
   color: #fff;
   border: none;
   margin-top: 18px;
@@ -405,21 +503,21 @@ main {
 .gita-block {
   margin-top: 14px;
   padding: 16px;
-  background: #FFF7EC;
-  border: 1px solid #E8C39E;
+  background: var(--gita-block-bg);
+  border: 1px solid var(--gita-block-border);
   border-radius: 12px;
 }
 
 .gita-block h3 {
   margin: 0 0 8px;
   font-size: 14px;
-  color: #B5651D;
+  color: var(--gita-highlight);
 }
 
 .gita-verse-ta {
   font-family: 'Noto Sans Tamil', sans-serif;
   font-size: 15px;
-  color: #8A4B14;
+  color: var(--gita-text-strong);
   margin: 0 0 10px;
   line-height: 1.6;
 }
@@ -427,23 +525,23 @@ main {
 .gita-verse-sa {
   font-family: 'Noto Sans Devanagari', sans-serif;
   font-size: 16px;
-  color: #8A4B14;
+  color: var(--gita-text-strong);
   margin: 0 0 10px;
   line-height: 1.7;
 }
 
 .gita-highlight {
   font-weight: 800;
-  color: #B5651D;
-  border-bottom: 2px solid #D9A441;
+  color: var(--gita-highlight);
+  border-bottom: 2px solid var(--gita-badge-direct-border);
 }
 
 .gita-play-btn {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  background: #FFF0D6;
-  color: #8A4B14;
+  background: var(--gita-chip-bg);
+  color: var(--gita-chip-fg);
   border: none;
   border-radius: 16px;
   padding: 6px 14px;
@@ -454,8 +552,8 @@ main {
 }
 
 .gita-play-btn.playing {
-  background: #B5651D;
-  color: #fff;
+  background: var(--gita-chip-playing-bg);
+  color: var(--gita-chip-playing-fg);
 }
 
 .gita-ref {
@@ -468,7 +566,7 @@ main {
 .gita-verse {
   font-style: italic;
   font-size: 15px;
-  color: #8A4B14;
+  color: var(--gita-text-strong);
   margin: 0 0 6px;
 }
 
@@ -482,7 +580,7 @@ main {
   font-size: 14px;
   line-height: 1.6;
   margin: 0;
-  border-top: 1px dashed #E8C39E;
+  border-top: 1px dashed var(--gita-block-border);
   padding-top: 10px;
 }
 
@@ -494,8 +592,8 @@ main {
   width: 100%;
   margin-top: 16px;
   padding: 12px;
-  background: var(--ink);
-  color: #fff;
+  background: var(--share-bg);
+  color: var(--share-fg);
   border: none;
   border-radius: 10px;
   font-size: 14px;
@@ -540,7 +638,7 @@ main {
 }
 
 .play-btn.playing {
-  background: var(--accent);
+  background: var(--accent-strong);
   color: #fff;
 }
 
@@ -571,7 +669,7 @@ main {
   padding: 12px;
   border: none;
   border-radius: 10px;
-  background: var(--accent);
+  background: var(--accent-strong);
   color: #fff;
   font-size: 15px;
   font-weight: 600;
@@ -588,7 +686,7 @@ main {
 }
 
 .reveal-btn.secondary {
-  background: var(--accent);
+  background: var(--accent-strong);
   color: #fff;
   border: none;
 }

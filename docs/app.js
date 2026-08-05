@@ -3,6 +3,7 @@ let currentLang = 'ta';
 let currentView = 'today'; // 'today' | 'list' | 'detail'
 let kurals = [];
 let detailFromList = false;
+let currentTheme = document.documentElement.getAttribute('data-theme') || 'light';
 
 const LABELS = {
   ta: {
@@ -489,6 +490,36 @@ function setLang(lang) {
 
 document.getElementById('btn-ta').addEventListener('click', () => setLang('ta'));
 document.getElementById('btn-en').addEventListener('click', () => setLang('en'));
+
+function applyTheme(theme) {
+  currentTheme = theme;
+  document.documentElement.setAttribute('data-theme', theme);
+
+  const toggle = document.getElementById('theme-toggle');
+  toggle.setAttribute('aria-checked', theme === 'dark');
+  toggle.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+  document.querySelector('.theme-toggle-thumb').textContent = theme === 'dark' ? '🌙' : '☀️';
+
+  const metaTheme = document.querySelector('meta[name="theme-color"]');
+  if (metaTheme) metaTheme.setAttribute('content', theme === 'dark' ? '#0B5443' : '#0F6E56');
+}
+
+function setTheme(theme) {
+  applyTheme(theme);
+  localStorage.setItem('theme', theme);
+}
+
+applyTheme(currentTheme);
+
+document.getElementById('theme-toggle').addEventListener('click', () => {
+  setTheme(currentTheme === 'dark' ? 'light' : 'dark');
+});
+
+if (!localStorage.getItem('theme')) {
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+    if (!localStorage.getItem('theme')) applyTheme(e.matches ? 'dark' : 'light');
+  });
+}
 
 document.getElementById('tab-today').addEventListener('click', () => {
   currentView = 'today';
