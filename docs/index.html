@@ -4,13 +4,6 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#0F6E56">
-<script>
-(function () {
-  var stored = localStorage.getItem('theme');
-  var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-  document.documentElement.setAttribute('data-theme', theme);
-})();
-</script>
 <title>குறளும் கீதையும் | Kural & Gita</title>
 <link rel="manifest" href="manifest.json">
 <link rel="apple-touch-icon" href="icons/icon-192.png">
@@ -29,16 +22,9 @@
     <h1>குறளும் கீதையும்</h1>
     <p class="tagline">Kural &amp; Gita</p>
   </div>
-  <div class="header-controls">
-    <div class="lang-toggle" role="group" aria-label="Language">
-      <button id="btn-ta" class="lang-btn active" data-lang="ta">தமிழ்</button>
-      <button id="btn-en" class="lang-btn" data-lang="en">English</button>
-    </div>
-    <button id="theme-toggle" class="theme-toggle" role="switch" aria-checked="false" aria-label="Switch to dark mode">
-      <span class="theme-toggle-track">
-        <span class="theme-toggle-thumb">☀️</span>
-      </span>
-    </button>
+  <div class="lang-toggle" role="group" aria-label="Language">
+    <button id="btn-ta" class="lang-btn active" data-lang="ta">தமிழ்</button>
+    <button id="btn-en" class="lang-btn" data-lang="en">English</button>
   </div>
 </header>
 
@@ -59,6 +45,9 @@
     <pre class="kural-text" data-field="kural_ta"></pre>
     <button class="play-btn" id="play-kural" aria-label="Play kural audio">
       <span class="play-icon">&#9658;</span> <span id="play-label">ஒலிக்க · Listen</span>
+    </button>
+    <button class="next-btn" id="next-kural" hidden aria-label="Go to next kural">
+      <span id="next-label">அடுத்தது · Next</span> <span>&#8594;</span>
     </button>
     <pre class="transliteration" data-field="kural_transliteration" hidden></pre>
     <p class="translation" data-field="translation_en" id="translation-en-block"></p>

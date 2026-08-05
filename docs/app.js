@@ -3,12 +3,11 @@ let currentLang = 'ta';
 let currentView = 'today'; // 'today' | 'list' | 'detail'
 let kurals = [];
 let detailFromList = false;
-let currentTheme = document.documentElement.getAttribute('data-theme') || 'light';
 
 const LABELS = {
   ta: {
     showCore: 'உரை காட்டு · Show meaning',
-    showFull: 'முழு உரை · Full commentary',
+    showFull: 'பரிமேலழகர் உரைச் சுருக்கம்',
     coreHeading: 'தெளிவுரை',
     fullHeading: 'பரிமேலழகர் உரை',
     tabToday: 'இன்றைய குறள்',
@@ -16,10 +15,10 @@ const LABELS = {
     backToList: '← பட்டியலுக்குத் திரும்பு',
     play: 'ஒலிக்க · Listen',
     playing: 'ஒலிக்கிறது… · Playing…',
-    gitaBtn: '🕉 கீதையுடன் ஒப்பிடு · Compare with the Gita',
+    gitaBtn: '🕉 கீதையுடன் ஒப்பிடு',
     gitaHeading: 'கீதையின் ஒப்பீடு',
     shareLabel: 'இக்குறளைப் பகிர்க',
-    shareText: (k) => `${k.kural_ta}\n\n"${k.urai_core_ta}"\n— திருக்குறள் ${k.id}, Thirukkural\n\n🕉 கீதை ஒப்புமை: ${k.gita_ref}\n${stripHighlightMarkers(k.gita_verse_ta_script)}\n"${k.gita_verse_meaning_ta}"`
+    shareText: (k) => `${k.kural_ta}\n\n"${k.urai_core_ta}"\n— திருக்குறள் ${k.id}, Thirukkural\n\n🕉 கீதை ஒப்புமை: ${k.gita_ref}\n${stripHighlightMarkers(k.gita_verse_ta_script)}\n"${k.gita_verse_meaning_ta}"\n\nhttps://r-venkatraman.github.io/thirukkural-pa/`
   },
   en: {
     showCore: 'Show meaning',
@@ -34,7 +33,7 @@ const LABELS = {
     gitaBtn: '🕉 Compare with the Gita',
     gitaHeading: 'Bhagavad Gita Parallel',
     shareLabel: 'Share this kural',
-    shareText: (k) => `${k.kural_ta}\n\n"${k.translation_en}"\n— Thirukkural ${k.id}\n\n🕉 Bhagavad Gita parallel: ${k.gita_ref}\n${k.gita_verse_translit}\n"${k.gita_verse_en}"`
+    shareText: (k) => `${k.kural_ta}\n\n"${k.translation_en}"\n— Thirukkural ${k.id}\n\n🕉 Bhagavad Gita parallel: ${k.gita_ref}\n${k.gita_verse_translit}\n"${k.gita_verse_en}"\n\nhttps://r-venkatraman.github.io/thirukkural-pa/`
   }
 };
 
@@ -126,7 +125,7 @@ function renderKuralCard(kural, showBack) {
 
   const gitaSaScript = node.querySelector('[data-field="gita_verse_sa_devanagari"]');
   if (gitaSaScript) {
-    if (currentLang === 'en' && kural.gita_verse_sa_devanagari) {
+    if (kural.gita_verse_sa_devanagari) {
       renderWithHighlight(gitaSaScript, kural.gita_verse_sa_devanagari);
       gitaSaScript.hidden = false;
     } else {
@@ -170,7 +169,9 @@ function renderKuralCard(kural, showBack) {
   document.getElementById('show-core').textContent = labels.showCore;
   document.getElementById('show-full').textContent = labels.showFull;
   document.getElementById('urai-core-heading').textContent = labels.coreHeading;
-  document.getElementById('urai-full-heading').textContent = labels.fullHeading;
+  const fullHeadingEl = document.getElementById('urai-full-heading');
+  fullHeadingEl.textContent = labels.fullHeading;
+  fullHeadingEl.style.display = (currentLang === 'ta') ? 'none' : '';
   document.getElementById('show-gita').textContent = labels.gitaBtn;
   document.getElementById('gita-heading').textContent = labels.gitaHeading;
 
@@ -227,6 +228,21 @@ function renderKuralCard(kural, showBack) {
     });
   } else {
     backBtn.hidden = true;
+  }
+
+  const nextBtn = document.getElementById('next-kural');
+  const nextLabel = document.getElementById('next-label');
+  const nextKural = kurals.find(x => x.id === kural.id + 1);
+  if (showBack && nextKural) {
+    nextLabel.textContent = currentLang === 'ta' ? 'அடுத்தது · Next' : 'Next';
+    nextBtn.hidden = false;
+    nextBtn.addEventListener('click', () => {
+      detailFromList = true;
+      currentView = 'detail-' + nextKural.id;
+      renderKuralCard(nextKural, true);
+    });
+  } else {
+    nextBtn.hidden = true;
   }
 
   const playBtn = document.getElementById('play-kural');
@@ -490,36 +506,6 @@ function setLang(lang) {
 
 document.getElementById('btn-ta').addEventListener('click', () => setLang('ta'));
 document.getElementById('btn-en').addEventListener('click', () => setLang('en'));
-
-function applyTheme(theme) {
-  currentTheme = theme;
-  document.documentElement.setAttribute('data-theme', theme);
-
-  const toggle = document.getElementById('theme-toggle');
-  toggle.setAttribute('aria-checked', theme === 'dark');
-  toggle.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
-  document.querySelector('.theme-toggle-thumb').textContent = theme === 'dark' ? '🌙' : '☀️';
-
-  const metaTheme = document.querySelector('meta[name="theme-color"]');
-  if (metaTheme) metaTheme.setAttribute('content', theme === 'dark' ? '#0B5443' : '#0F6E56');
-}
-
-function setTheme(theme) {
-  applyTheme(theme);
-  localStorage.setItem('theme', theme);
-}
-
-applyTheme(currentTheme);
-
-document.getElementById('theme-toggle').addEventListener('click', () => {
-  setTheme(currentTheme === 'dark' ? 'light' : 'dark');
-});
-
-if (!localStorage.getItem('theme')) {
-  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
-    if (!localStorage.getItem('theme')) applyTheme(e.matches ? 'dark' : 'light');
-  });
-}
 
 document.getElementById('tab-today').addEventListener('click', () => {
   currentView = 'today';
